@@ -17,14 +17,14 @@ export default function CustomButton({
   return (
     <View style={styles.mainContainer}>
       <Pressable
-        onPress={e => onPress(e)}
         style={{
-          ...(buttonStyle !== 'primary'
+          ...(buttonStyle == 'primary'
             ? styles.primayContainer
             : styles.outlineContainer),
           ...style,
         }}>
         <Button
+          onPress={() => onPress()}
           title={`${buttonTitle}`}
           color={GlobalConstants.colors.mainThemeColor}
         />

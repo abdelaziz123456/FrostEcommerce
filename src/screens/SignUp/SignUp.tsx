@@ -1,14 +1,9 @@
-import {
-  View,
-  Text,
-  KeyboardAvoidingView,
-  Platform,
-  ScrollView,
-} from 'react-native';
+import {View, Text} from 'react-native';
 import React, {useState} from 'react';
 import {styles} from './SignUp.styles';
-import {CustomButton, InputField} from '../../SharedComponents';
+import {CustomButton, CustomModal, InputField} from '../../SharedComponents';
 import {useNavigation, StackActions} from '@react-navigation/native';
+import {checkValidation} from './SignUpUtils';
 
 export default function SignUp() {
   const [signUpData, setsignUpData] = useState({
@@ -18,15 +13,20 @@ export default function SignUp() {
     confirmPassword: '',
   });
 
+  const [showModal, setShowModal] = useState(false);
+  const [modalContent, setModalContent] = useState('Are You Sure?');
   const navigation = useNavigation();
   function onChangehandler(key: string, value: string) {
     setsignUpData({...signUpData, [key]: value});
-    console.log({signUpData});
   }
 
-  function signUpHandler(e: any) {
-    console.log('signed up ', e);
+  function signUpHandler() {
+    console.log(checkValidation(signUpData));
   }
+
+  // function confirmModalHandler() {
+  //   console.log('confirmed');
+  // }
   return (
     <View style={styles.container}>
       <View style={styles.titleContainer}>
@@ -41,7 +41,7 @@ export default function SignUp() {
       <InputField
         labelText="Confirm Email"
         onChange={onChangehandler}
-        value={signUpData.email}
+        value={signUpData.confirmEmail}
         name="confirmEmail"
       />
       <InputField
@@ -54,7 +54,7 @@ export default function SignUp() {
       <InputField
         labelText="Confirm Password"
         onChange={onChangehandler}
-        value={signUpData.password}
+        value={signUpData.confirmPassword}
         name="confirmPassword"
         password
       />
@@ -63,7 +63,7 @@ export default function SignUp() {
         style={{marginTop: 40}}
         buttonTitle="Sign Up"
         onPress={signUpHandler}
-        buttonStyle={'primary'}
+        buttonStyle={'primary-outline'}
       />
       <View style={styles.screenLinkContainer}>
         <Text
@@ -72,6 +72,12 @@ export default function SignUp() {
           Log in instead
         </Text>
       </View>
+
+      <CustomModal
+        content={modalContent}
+        shown={showModal}
+        cancelButtonFunction={() => setShowModal(false)}
+      />
     </View>
   );
 }

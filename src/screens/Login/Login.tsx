@@ -42,7 +42,7 @@ export default function Login() {
         style={{marginTop: 40}}
         buttonTitle="Login"
         onPress={loginHandler}
-        buttonStyle={'primary'}
+        buttonStyle={'primary-outline'}
       />
 
       <View style={styles.screenLinkContainer}>
