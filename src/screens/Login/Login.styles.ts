@@ -23,4 +23,11 @@ export const styles = StyleSheet.create({
   screenLinkContainer: {
     marginVertical: 20,
   },
+  imageContainer: {alignItems: 'center', marginTop: 30},
+  image: {
+    width: 40,
+    height: 40,
+    backgroundColor: 'white',
+    borderRadius: 10,
+  },
 });
