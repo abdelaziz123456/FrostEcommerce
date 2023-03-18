@@ -14,19 +14,18 @@ export default function SignUp() {
   });
 
   const [showModal, setShowModal] = useState(false);
-  const [modalContent, setModalContent] = useState('Are You Sure?');
+  const [modalContent, setModalContent] = useState('');
   const navigation = useNavigation();
   function onChangehandler(key: string, value: string) {
     setsignUpData({...signUpData, [key]: value});
   }
 
   function signUpHandler() {
-    console.log(checkValidation(signUpData));
+    if (checkValidation(signUpData, setModalContent, setShowModal)) {
+      console.log('done');
+    }
   }
 
-  // function confirmModalHandler() {
-  //   console.log('confirmed');
-  // }
   return (
     <View style={styles.container}>
       <View style={styles.titleContainer}>

@@ -16,7 +16,8 @@ export const styles = StyleSheet.create({
   },
   modalText: {
     fontWeight: '600',
-    fontSize: 16,
+    fontSize: 18,
     marginVertical: 20,
+    textAlign: 'center',
   },
 });

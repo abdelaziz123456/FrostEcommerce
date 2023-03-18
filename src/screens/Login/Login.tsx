@@ -1,22 +1,24 @@
 import {Text, View} from 'react-native';
 import React, {useState} from 'react';
 import {styles} from './Login.styles';
-import {CustomButton, InputField} from '../../SharedComponents';
+import {CustomButton, CustomModal, InputField} from '../../SharedComponents';
 import {useNavigation, StackActions} from '@react-navigation/native';
+import {checkValidation} from './LoginUtiles';
 
 export default function Login() {
   const [loginData, setLoginData] = useState({
     email: '',
     password: '',
   });
-
+  const [showModal, setShowModal] = useState(false);
+  const [modalContent, setModalContent] = useState('');
   const navigation = useNavigation();
   function onChangehandler(key: string, value: string) {
     setLoginData({...loginData, [key]: value});
-    console.log({loginData});
   }
 
   function loginHandler(e: any) {
+    checkValidation(loginData, setModalContent, setShowModal);
     console.log('loggedf', e);
   }
   return (
@@ -52,6 +54,11 @@ export default function Login() {
           Create New User
         </Text>
       </View>
+      <CustomModal
+        content={modalContent}
+        shown={showModal}
+        cancelButtonFunction={() => setShowModal(false)}
+      />
     </View>
   );
 }

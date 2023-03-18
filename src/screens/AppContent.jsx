@@ -2,16 +2,6 @@ import React, {useState} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import {Home, Login, SignUp} from './index';
-import GlobalConstants from '../Utiles/Constants';
-
-const sharedOPtions = {
-  headerTintColor: GlobalConstants.colors.mainThemeColor,
-  headerTitleStyle: {
-    fontWeight: 'bold',
-    fontSize: 26,
-    justifyContent: 'centerب',
-  },
-};
 
 function UnAuthNavigator() {
   const UnAuthStack = createNativeStackNavigator();

@@ -17,16 +17,6 @@ export function checkValidation(signUpData, setModalContent, setShowModal) {
     setShowModal(true);
     return false;
   }
-  if (signUpData.email !== signUpData.confirmEmail) {
-    setModalContent('Emails are not identical');
-    setShowModal(true);
-    return false;
-  }
-  if (signUpData.password !== signUpData.confirmPassword) {
-    setModalContent('Passwords are not identical');
-    setShowModal(true);
-    return false;
-  }
 
   return true;
 }
