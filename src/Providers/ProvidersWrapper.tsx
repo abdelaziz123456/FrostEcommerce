@@ -1,7 +1,11 @@
-import {View, Text} from 'react-native';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
+import {FrostProvider} from '../store/frost-context';
 
 export default function ProvidersWrapper(props: any) {
-  return <NavigationContainer>{props.children}</NavigationContainer>;
+  return (
+    <FrostProvider>
+      <NavigationContainer>{props.children}</NavigationContainer>
+    </FrostProvider>
+  );
 }

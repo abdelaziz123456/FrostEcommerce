@@ -42,6 +42,7 @@ export default function Login() {
     TouchID.authenticate('Authentication')
       .then(success => {
         console.log(success);
+
         // Success code
       })
       .catch(error => {
@@ -49,10 +50,6 @@ export default function Login() {
         console.log(error);
       });
   };
-  useEffect(() => {
-    console.log('rendered');
-    handleBiometric();
-  });
 
   const [loginData, setLoginData] = useState({
     email: '',
@@ -95,7 +92,7 @@ export default function Login() {
         buttonStyle={'primary-outline'}
       />
       <View style={styles.imageContainer}>
-        <Pressable onPress={() => console.log('pretssed')}>
+        <Pressable onPress={() => handleBiometric()}>
           <Image
             source={require('../../Utiles/images/fingerprint.png')}
             style={styles.image}
