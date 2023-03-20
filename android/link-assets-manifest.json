@@ -1,4 +1,501 @@
 {
   "migIndex": 1,
-  "data": []
+  "data": [
+    {
+      "path": "node_modules/react-native-touch-id/.codeclimate.yml",
+      "sha1": "2e6ea2beec2e4cb93a840ee1b110511277c0ea33"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/.eslintignore",
+      "sha1": "060e1828d1098820cbe2b4d697f1979a52893a43"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/.eslintrc",
+      "sha1": "293368bc118ecc518d10e70217fba157f529a0e9"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/.jshintrc",
+      "sha1": "5a9656ccd5b1965c67c2f0916f26eced6a8c6984"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/.travis.yml",
+      "sha1": "bf5549797aed578a225ab780c001b824449c3eba"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/results.bin",
+      "sha1": "12d521b6290f161ced08bd889933378db1f1ca87"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/transformed/classes/classes.dex",
+      "sha1": "c01c98ffb2d7f2f461e3e4cbf6bccf5810a18d57"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/generated/source/buildConfig/debug/com/rnfingerprint/BuildConfig.java",
+      "sha1": "9ae5a6fd5a18cda521a52405aaf6860efcede8a5"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml",
+      "sha1": "4abb9104230e1c0da312549e51bdbdca4bba4c5b"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json",
+      "sha1": "d4d549dc40571bdc69cfc3df83d1f89a9a143b01"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/aar_metadata/debug/aar-metadata.properties",
+      "sha1": "1a805497c3d661b4c858f24b41d25cc658ca9f63"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json",
+      "sha1": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/drawable_ic_fp_40px.png.flat",
+      "sha1": "61c0bb9093a1ab83632a00f2d213e0eb026083cd"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/layout_fingerprint_dialog.xml.flat",
+      "sha1": "b4b6017e1b1d0f225dde701a653234773e368d41"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/compile_library_classes_jar/debug/classes.jar",
+      "sha1": "1451ee978dbfeb300703f3cee54fa22a3a09fa98"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/compile_r_class_jar/debug/R.jar",
+      "sha1": "934fca0ae90cda1088c5d190a13913afa6ad9ac9"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/compile_symbol_list/debug/R.txt",
+      "sha1": "91a0d0c84656dc273ec0a602c3b475bf7f0e2029"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties",
+      "sha1": "9938aaafca336f7a9982d605ec02fda86c028a0c"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml",
+      "sha1": "47e4f81c613e919a47b65de8b838e6c4b383d10b"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/BuildConfig.class",
+      "sha1": "95de4a8977273e3dbdfeefbdaa9ddc7d544f3a52"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/DialogResultHandler.class",
+      "sha1": "34df601a20059c51d61213c94492c7623745b861"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintAuthConstants.class",
+      "sha1": "513e16816eb1cc1cb7427af2077714c821474525"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintAuthModule.class",
+      "sha1": "a022b1f457e5c8ced2c81aa7788f20cf2e08f6dd"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintAuthPackage.class",
+      "sha1": "b7841b3170834cd53f4da722ac0dbdc931dcf7fe"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintCipher.class",
+      "sha1": "9374b95c3f5df957d2e7bcb85ab876452377e040"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog$1.class",
+      "sha1": "e8be8aaabe4204dcb865dafc17979d81b6e61602"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog$2.class",
+      "sha1": "08c9f4fc29f8f676a96bfcef8ff447ba32972231"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog$DialogResultListener.class",
+      "sha1": "d509fb43176c2a7f65b2078034b94ae024cefd5e"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog.class",
+      "sha1": "3b1f4f0dc3c482fb436f19806dd89f7332e68113"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintHandler$Callback.class",
+      "sha1": "e0ce03e3cdd897726e7cad6f7de6d8dfc32738e6"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintHandler.class",
+      "sha1": "e56850ffcd1ca4ed8811ad4de13ea1ced6ce1519"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/local_only_symbol_list/debug/R-def.txt",
+      "sha1": "875c414b68dde92206eb56819549d60ef741ded2"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt",
+      "sha1": "fb688150040be7a13cd3d8dc8c64b3f7f460fe45"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/navigation_json/debug/navigation.json",
+      "sha1": "97d170e1550eee4afc0af065b78cda302a97674c"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/packaged_res/debug/drawable/ic_fp_40px.png",
+      "sha1": "c005e74ff7a5c9c1b44925a029053eda6ada8937"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/packaged_res/debug/layout/fingerprint_dialog.xml",
+      "sha1": "404d4d754a59831f0ff8ebb91d54cc730afd2f4c"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt",
+      "sha1": "6cb0133470bbda63e862ad7e9469418d72ad0238"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/outputs/logs/manifest-merger-debug-report.txt",
+      "sha1": "7aaba9734f09f984c2e9563d8b7ae7d6d1d3c0d7"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin",
+      "sha1": "59dd31e095a8bc77521f5904aff0895bd0aaa31d"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/build.gradle",
+      "sha1": "f6e6966c3cb7b8e64b473db6e26e0d05f60abd7b"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/DialogResultHandler.java",
+      "sha1": "1291dd2823f5a3d5e454b8d5ea49a01856eb226c"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintAuthConstants.java",
+      "sha1": "ee7b422dc95f711a9b14fbe7857178ef1ebbcbe3"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintAuthModule.java",
+      "sha1": "94c981d47ab2297ccfc90092873efb7ad1455c2e"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintAuthPackage.java",
+      "sha1": "e5d130d5c054edbaab451713d42b0893be80ca6c"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintCipher.java",
+      "sha1": "4f55a32fce234c6e1135867b668b646f0e74dc73"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintDialog.java",
+      "sha1": "888ebbef98f02a933cd97631feb76c2055dc21bc"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintHandler.java",
+      "sha1": "9c913f710119d5a920ed56c23b2cbb3b40cbfcac"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/CHANGELOG.md",
+      "sha1": "159036075d8dcc6559461aee665f4c387296fc29"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/data/errors.js",
+      "sha1": "12fe67cb3d328bd713948e5a93c4f81927731dfa"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/index.d.ts",
+      "sha1": "9afdf8746bb3323e68a45fe7f4759268df692f57"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/index.js",
+      "sha1": "4406dafc26ee16d461a97c8cdd20c32e67527a85"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/package.json",
+      "sha1": "1bed3c28b46350c956d73cc9e479ca8afe63e820"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/README.md",
+      "sha1": "33082f37bcbae5d8d2f28d06900a80830701f46a"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.android.js",
+      "sha1": "5e2130f05937cdb1d3d9cb844a490cd70e97af39"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.h",
+      "sha1": "c28179f9b54e1bddb9f13f22b461c090522a6baa"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.ios.js",
+      "sha1": "103f544d3bb37dd81772a03f40f6bb5911816dd1"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.m",
+      "sha1": "3c47d32e00c2ba807d69efdc177378261bf6a88b"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.podspec",
+      "sha1": "b0640fedb86fa2db2fe1df15b61594ad49e76288"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.xcodeproj/project.pbxproj",
+      "sha1": "ee14684ba5421f2ba529a4e36834c7f40c21284d"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha1": "84243848f54b0c5983e1ed26defb41d262ce1354"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.xcodeproj/project.xcworkspace/xcshareddata/TouchID.xccheckout",
+      "sha1": "21eef22a52fed38daea81813e2323b3c751b6417"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate",
+      "sha1": "454d162a9cfaebf6c97b1dfb596e095cf45d328c"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/TouchID.xcscheme",
+      "sha1": "8d46582e9f081d5280ce8f73d4ec39789648ffac"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/TouchID.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist",
+      "sha1": "b73ee5fdfe3893059cb8fa07c1b10fc87b12187d"
+    },
+    {
+      "path": "node_modules/react-native-touch-id/yarn.lock",
+      "sha1": "505af0fd3de818088ea64d5c055e4231509ff1f0"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$CipherResult.class",
+      "sha1": "5542a92525f499821a4f928af4c12f1efdcc9e25"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$DecryptionContext.class",
+      "sha1": "8247aca098c6dda0bd80a57c8bb87f19a9bafa40"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$DecryptionResult.class",
+      "sha1": "1908f7d7f979a04aec3fb0a96804b0e2e2033729"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$EncryptionResult.class",
+      "sha1": "e527a6f76011e22c81088fe45c3d1c7b9a59860d"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage.class",
+      "sha1": "29dc4e13003453ccf2a3829e6cf4a2fd9e9996aa"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$DecryptBytesHandler.class",
+      "sha1": "bf7907b5e51a66011a16a84daa14898ae27f9849"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$Defaults.class",
+      "sha1": "57d6cc0eaa58259b6fdfe220e13ce99bec6a800b"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$EncryptStringHandler.class",
+      "sha1": "33800b3dfa84054ce2911c70e9c957a1b2ea622c"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$IV.class",
+      "sha1": "6ecf65df467b29a638d3e26229ffccb980bb8ba0"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$SelfDestroyKey.class",
+      "sha1": "91e08f92c3df52fa51a95eaa92d662bd057e515b"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase.class",
+      "sha1": "39fb92a54c9ec2558064753127fa2ce539c17e08"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageFacebookConceal.class",
+      "sha1": "17da08b232cc9f1eefc8b0a9f9da8edd85041faf"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageKeystoreAesCbc.class",
+      "sha1": "f3f1499de82fddf4013bc54df53bc5382b69e48d"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageKeystoreRsaEcb.class",
+      "sha1": "dbc76c993e34dde86d1d895ee3689249497635eb"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandler.class",
+      "sha1": "d483f472fa0b5ccbd96433b23b9d1298f57f372a"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometric.class",
+      "sha1": "191b08170fad5a47f2c99309da285a2e697e5a63"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometricManualRetry.class",
+      "sha1": "f617c60a2a2735b1ba7a9f6f3aada599d07585ae"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerNonInteractive.class",
+      "sha1": "b3b0a51b23913b5458cf88aabb85833fbccac009"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerProvider.class",
+      "sha1": "9fe5f1238938bf4710df675b6755a352199034b5"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/DeviceAvailability.class",
+      "sha1": "6d3cbd032317f239b71f4c1e4dc239600d4116e2"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/exceptions/CryptoFailedException.class",
+      "sha1": "1fba5c6a437b71b8650420451e311266db8fe15a"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/exceptions/EmptyParameterException.class",
+      "sha1": "59604d60b3366d5de171149f4a39720c8a0e0a15"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/exceptions/KeyStoreAccessException.class",
+      "sha1": "ccf261dced3bfa3dd7d8bf42d67cfdb48a6c7f42"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$AccessControl.class",
+      "sha1": "216c062f09cbbb78f46721e2727bb61ce1520629"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$AuthPromptOptions.class",
+      "sha1": "338bc3f7e936336957818f498fab58098c8e7f90"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Errors.class",
+      "sha1": "aeef4f915c840fa2fcd0f9302c056df1b1827135"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$KnownCiphers.class",
+      "sha1": "ca7bc4fa06074bd9501d65e066a88031f50a0fd4"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Maps.class",
+      "sha1": "5b3570ce6d1246d0c14e0597dabaa6ef25f42e45"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Rules.class",
+      "sha1": "da6f7c33080762711ed638c1e30e7c5b3682f1d6"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule.class",
+      "sha1": "edbf1a830b891c646537b0ee11d64b816ba6f323"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModuleBuilder.class",
+      "sha1": "6eee0fd42759c07c7c886c3d93aa4c328b8fcbaf"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainPackage.class",
+      "sha1": "bc25891326a422015e2c0c5eca11b349ff89906d"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/PrefsStorage$ResultSet.class",
+      "sha1": "e4293ecfe7059e7cce8e261244512a8c6886b43c"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/PrefsStorage.class",
+      "sha1": "7ce8b7c95a517cb345d39510b01a7b38c341c514"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/SecurityLevel.class",
+      "sha1": "d018bb8383edd6ba65beeb22b92773a15a5d7fa7"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorage.java",
+      "sha1": "ad47430ea687bc8f8442f15d04acfbcc8f1272c6"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageBase.java",
+      "sha1": "fbfff3d977b76bed52d936dc7b96db8f882cd5a6"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageFacebookConceal.java",
+      "sha1": "8845ab4d9cc838a0ed0173a0ac7ddd965c9538a2"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageKeystoreAesCbc.java",
+      "sha1": "2aa006f8d5cf3dc0ec58e3599bfe94239e975cb9"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageKeystoreRsaEcb.java",
+      "sha1": "f2b2e9540087e66e1e1511a225b98f1838e6ef46"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandler.java",
+      "sha1": "682d7d36ad31b2901eb38e5f237761f0f24ab64b"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometric.java",
+      "sha1": "8aa2cb6636ceb85f04cbfdbcf1d6f6694ad8915a"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometricManualRetry.java",
+      "sha1": "4531206969439180909d3f0919eae37d94882329"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerNonInteractive.java",
+      "sha1": "face12e90bc2e6fcb321e51e579603f7a535fcf9"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerProvider.java",
+      "sha1": "037641694d7bd74c04d4c11d750e35a4130d9713"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/DeviceAvailability.java",
+      "sha1": "b2bdff1f0d7a78b8fbc6a0b019393bf114981f1c"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/exceptions/CryptoFailedException.java",
+      "sha1": "a5b0dc24035cae0707b1618ac9f7716f180f025e"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/exceptions/EmptyParameterException.java",
+      "sha1": "6b123adcfd2d4c8979cdf91b6ee18feede44b6a8"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/exceptions/KeyStoreAccessException.java",
+      "sha1": "adc6658d1190605a53e07199c1d7dabeefd96534"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/KeychainModule.java",
+      "sha1": "7607c448f9b751439bd60b1d1bd0020ac24c9263"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/KeychainModuleBuilder.java",
+      "sha1": "3e6c67bb9c6dd73a8038bd5c40204866a5f8e93e"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/KeychainPackage.java",
+      "sha1": "32f5583c3c96c00bdcb621af83c1e8694159a735"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/PrefsStorage.java",
+      "sha1": "2b9f9e698c05813dee7ec936a432966c1cdc9e50"
+    },
+    {
+      "path": "node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/SecurityLevel.java",
+      "sha1": "a6d111e4aa586bd9b03e2d7eefda90a28cae8ba1"
+    },
+    {
+      "path": "node_modules/react-native-keychain/LICENSE",
+      "sha1": "9d32a1a5d565cb2ae618e31c8e33b8aa17a58cf8"
+    },
+    {
+      "path": "node_modules/react-native-keychain/RNKeychain.podspec",
+      "sha1": "235cf482443d650d7419e5e56c68d3af4f563f66"
+    },
+    {
+      "path": "node_modules/react-native-keychain/RNKeychainManager/RNKeychainManager.h",
+      "sha1": "a39ead0b18c70c74b271dceb492339c5c74a6756"
+    },
+    {
+      "path": "node_modules/react-native-keychain/RNKeychainManager/RNKeychainManager.m",
+      "sha1": "daf3cf230204ab81a06f90e0d8ba2cc8b16b8281"
+    },
+    {
+      "path": "node_modules/react-native-keychain/typings/react-native-keychain.d.ts",
+      "sha1": "ad73d62a2add820370786e96dab84a05b423b9e5"
+    }
+  ]
 }

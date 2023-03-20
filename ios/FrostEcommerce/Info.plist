@@ -1,132 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>
+<dict>
+	<key>
 			CFBundleDevelopmentRegion
 		</key>
-		<string>
+	<string>
 			en
 		</string>
-		<key>
+	<key>
 			NSFaceIDUsageDescription
 		</key>
-		<string>
+	<string>
 			Enabling Face ID allows you quick and secure access to your account.
 		</string>
-		<key>
+	<key>
 			CFBundleDisplayName
 		</key>
-		<string>
+	<string>
 			FrostEcommerce
 		</string>
-		<key>
+	<key>
 			CFBundleExecutable
 		</key>
-		<string>
+	<string>
 			$(EXECUTABLE_NAME)
 		</string>
-		<key>
+	<key>
 			CFBundleIdentifier
 		</key>
-		<string>
+	<string>
 			$(PRODUCT_BUNDLE_IDENTIFIER)
 		</string>
-		<key>
+	<key>
 			CFBundleInfoDictionaryVersion
 		</key>
-		<string>
+	<string>
 			6.0
 		</string>
-		<key>
+	<key>
 			CFBundleName
 		</key>
-		<string>
+	<string>
 			$(PRODUCT_NAME)
 		</string>
-		<key>
+	<key>
 			CFBundlePackageType
 		</key>
-		<string>
+	<string>
 			APPL
 		</string>
-		<key>
+	<key>
 			CFBundleShortVersionString
 		</key>
-		<string>
+	<string>
 			$(MARKETING_VERSION)
 		</string>
-		<key>
+	<key>
 			CFBundleSignature
 		</key>
-		<string>
+	<string>
 			????
 		</string>
-		<key>
+	<key>
 			CFBundleVersion
 		</key>
-		<string>
+	<string>
 			$(CURRENT_PROJECT_VERSION)
 		</string>
-		<key>
+	<key>
 			LSRequiresIPhoneOS
 		</key>
-		<true />
-		<key>
+	<true/>
+	<key>
 			NSAppTransportSecurity
 		</key>
-		<dict>
-			<key>
+	<dict>
+		<key>
 				NSExceptionDomains
 			</key>
-			<dict>
-				<key>
+		<dict>
+			<key>
 					localhost
 				</key>
-				<dict>
-					<key>
+			<dict>
+				<key>
 						NSExceptionAllowsInsecureHTTPLoads
 					</key>
-					<true />
-				</dict>
+				<true/>
 			</dict>
 		</dict>
-		<key>
+	</dict>
+	<key>
 			NSLocationWhenInUseUsageDescription
 		</key>
-		<string>
+	<string>
 		</string>
-		<key>
+	<key>
 			UILaunchStoryboardName
 		</key>
-		<string>
+	<string>
 			LaunchScreen
 		</string>
-		<key>
+	<key>
 			UIRequiredDeviceCapabilities
 		</key>
-		<array>
-			<string>
+	<array>
+		<string>
 				armv7
 			</string>
-		</array>
-		<key>
+	</array>
+	<key>
 			UISupportedInterfaceOrientations
 		</key>
-		<array>
-			<string>
+	<array>
+		<string>
 				UIInterfaceOrientationPortrait
 			</string>
-			<string>
+		<string>
 				UIInterfaceOrientationLandscapeLeft
 			</string>
-			<string>
+		<string>
 				UIInterfaceOrientationLandscapeRight
 			</string>
-		</array>
-		<key>
+	</array>
+	<key>
 			UIViewControllerBasedStatusBarAppearance
 		</key>
-		<false />
-	</dict>
+	<false/>
+</dict>
 </plist>

@@ -1,8 +1,8 @@
 import {StyleSheet} from 'react-native';
-import GlobalConstantss from '../../Utiles/Constants';
+import GlobalConstants from '../../Utiles/Constants';
 export const styles = StyleSheet.create({
   container: {
-    backgroundColor: GlobalConstantss.colors.mainThemeColor,
+    backgroundColor: GlobalConstants.colors.mainThemeColor,
     flex: 1,
     paddingHorizontal: 40,
     paddingVertical: 50,

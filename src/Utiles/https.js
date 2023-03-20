@@ -4,7 +4,7 @@ import axios from 'axios';
 let loginUrl =
   'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=';
 let signUpUrl =
-  'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=';
+  'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=';
 let key = 'AIzaSyAtBA6-yaLsjMjhb101vO-WC6yyOvtecSQ';
 
 export const signUp = async (email, password) => {

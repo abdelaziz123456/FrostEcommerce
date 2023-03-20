@@ -1,4 +1,4 @@
-import {Pressable, Button, View} from 'react-native';
+import {Pressable, Button, View, ActivityIndicator} from 'react-native';
 import React from 'react';
 import {styles} from './CustomButton.styles';
 import GlobalConstants from '../../Utiles/Constants';
@@ -7,12 +7,14 @@ type CustomButtonTypes = {
   buttonTitle: string;
   style?: object;
   buttonStyle: string;
+  loading?: boolean;
 };
 export default function CustomButton({
   onPress,
   buttonTitle,
   style,
   buttonStyle,
+  loading,
 }: CustomButtonTypes) {
   return (
     <View style={styles.mainContainer}>
@@ -23,11 +25,15 @@ export default function CustomButton({
             : styles.outlineContainer),
           ...style,
         }}>
-        <Button
-          onPress={() => onPress()}
-          title={`${buttonTitle}`}
-          color={GlobalConstants.colors.mainThemeColor}
-        />
+        {loading ? (
+          <ActivityIndicator size={'large'} color={'white'} />
+        ) : (
+          <Button
+            onPress={() => onPress()}
+            title={`${buttonTitle}`}
+            color={GlobalConstants.colors.mainThemeColor}
+          />
+        )}
       </Pressable>
     </View>
   );

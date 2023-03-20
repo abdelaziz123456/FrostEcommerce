@@ -1,26 +1,30 @@
 import {View, Text} from 'react-native';
-import React, {useContext, useState} from 'react';
+import React, {useState} from 'react';
 import {styles} from './SignUp.styles';
 import {CustomButton, CustomModal, InputField} from '../../SharedComponents';
 import {useNavigation, StackActions} from '@react-navigation/native';
 import {signUpHandler} from './SignUpUtils';
 import {signUp} from '../../Utiles/https';
-import {FrostContext} from '../../store/frost-context';
+import SuccessSignup from '../SuccessSignup/SuccessSignup';
 
 export default function SignUp() {
-  const {setISAuth} = useContext(FrostContext);
   const [signUpData, setsignUpData] = useState({
     email: '',
     password: '',
     confirmEmail: '',
     confirmPassword: '',
   });
-
+  const [isLoading, setIsLoading] = useState();
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState('');
+  const [isSigned, setIsSigned] = useState(false);
   const navigation = useNavigation();
   function onChangehandler(key: string, value: string) {
     setsignUpData({...signUpData, [key]: value});
+  }
+
+  if (isSigned) {
+    return <SuccessSignup />;
   }
 
   return (
@@ -56,6 +60,7 @@ export default function SignUp() {
       />
 
       <CustomButton
+        loading={isLoading}
         style={{marginTop: 40}}
         buttonTitle="Sign Up"
         onPress={() =>
@@ -64,7 +69,8 @@ export default function SignUp() {
             setModalContent,
             setShowModal,
             signUp,
-            setISAuth,
+            setIsLoading,
+            setIsSigned,
           )
         }
         buttonStyle={'primary-outline'}

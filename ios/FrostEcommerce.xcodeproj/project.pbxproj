@@ -14,6 +14,130 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-FrostEcommerce-FrostEcommerceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FrostEcommerce-FrostEcommerceTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84A9DE0CAE104787952B7887 /* .codeclimate.yml in Resources */ = {isa = PBXBuildFile; fileRef = 185CBB5D6C9042EFA4DA65F6 /* .codeclimate.yml */; };
+		19BE1BB787354904B96DE80D /* .eslintignore in Resources */ = {isa = PBXBuildFile; fileRef = BAF55C3CE5024CC7B27F3B5E /* .eslintignore */; };
+		9D3D0E3FA58F49A9A533DF5C /* .eslintrc in Resources */ = {isa = PBXBuildFile; fileRef = 9D59875097E54366A9B81ACB /* .eslintrc */; };
+		A7F7091A4A5244F3A94164D5 /* .jshintrc in Resources */ = {isa = PBXBuildFile; fileRef = 0C954B9E7A3645FCB9A24DD3 /* .jshintrc */; };
+		1C52BFB376224828B1D3D8E7 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 84AAFF01D14A429A85EE2693 /* .travis.yml */; };
+		A41B1ECD1DE24E7E9BC3E96D /* results.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4EE11E721AA64D0C82CDCE9C /* results.bin */; };
+		F7E07CF7B27C443DBD4104E7 /* classes.dex in Resources */ = {isa = PBXBuildFile; fileRef = CE3D6F053B9E4E3494CF7EC2 /* classes.dex */; };
+		504C0B4BDD0B4DC29B768F1B /* BuildConfig.java in Resources */ = {isa = PBXBuildFile; fileRef = EC02345D9505462AA25D8878 /* BuildConfig.java */; };
+		A249D7BE95C3402BB8D0DFDC /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = E11CFC3EE21A46C8A698DC71 /* AndroidManifest.xml */; };
+		C386C9AE573F4B7CA7D03809 /* output-metadata.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F4F5C78D39443795BDFCD1 /* output-metadata.json */; };
+		9A563468202544B599E086E5 /* aar-metadata.properties in Resources */ = {isa = PBXBuildFile; fileRef = 2EE04EEE495C41B1A5E3A8F0 /* aar-metadata.properties */; };
+		551C55CD2174423D8B45ADA5 /* annotationProcessors.json in Resources */ = {isa = PBXBuildFile; fileRef = 0462DB7BD21C4986BB2EE7A2 /* annotationProcessors.json */; };
+		B17091C86424497D9ED164ED /* drawable_ic_fp_40px.png.flat in Resources */ = {isa = PBXBuildFile; fileRef = 6A9E0FE30920474B8C57D548 /* drawable_ic_fp_40px.png.flat */; };
+		5C06BD750F944DB2BA05230F /* layout_fingerprint_dialog.xml.flat in Resources */ = {isa = PBXBuildFile; fileRef = 8C536F60241B49B6970E5497 /* layout_fingerprint_dialog.xml.flat */; };
+		193C2C2FB300439DA2EBD1E5 /* classes.jar in Resources */ = {isa = PBXBuildFile; fileRef = 9A425B653F164CED8259BAB3 /* classes.jar */; };
+		C3D7143B5E6D42CC816E8E6F /* R.jar in Resources */ = {isa = PBXBuildFile; fileRef = 33EE82932A8B48CCB1D6A3D7 /* R.jar */; };
+		9C50035B179C463AB2FCE299 /* R.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFC53E8CEB434CBB9A92EFFA /* R.txt */; };
+		3C2A5FE573C84F8E843381C4 /* compile-file-map.properties in Resources */ = {isa = PBXBuildFile; fileRef = 9723C0BD29304F7F8D8B060D /* compile-file-map.properties */; };
+		DDF175A66517429FBF945E21 /* merger.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5205517E46B4915CE252 /* merger.xml */; };
+		FD72936FC6F64B5BAA5DABC5 /* BuildConfig.class in Resources */ = {isa = PBXBuildFile; fileRef = DBE41F33755C42FC80A33FE0 /* BuildConfig.class */; };
+		097AD73543B24B61BDA0D76F /* DialogResultHandler.class in Resources */ = {isa = PBXBuildFile; fileRef = 33C437100F76465E8EAF9C79 /* DialogResultHandler.class */; };
+		4E0B25D58E1341CB83D37159 /* FingerprintAuthConstants.class in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F2ED23B5B448E939C5A3B /* FingerprintAuthConstants.class */; };
+		2ED8257CF42F4152956F241F /* FingerprintAuthModule.class in Resources */ = {isa = PBXBuildFile; fileRef = B90BCD3D4A4B4DFD918C14E6 /* FingerprintAuthModule.class */; };
+		5DB0FAFC902E4E2185BA9FC6 /* FingerprintAuthPackage.class in Resources */ = {isa = PBXBuildFile; fileRef = F9E5B935CC3F41258EA0C644 /* FingerprintAuthPackage.class */; };
+		55420F5DE286450F8DD10FED /* FingerprintCipher.class in Resources */ = {isa = PBXBuildFile; fileRef = 050E621F0DD446C5B9D6EDCD /* FingerprintCipher.class */; };
+		07A50947BA564F799FA1749A /* FingerprintDialog$1.class in Resources */ = {isa = PBXBuildFile; fileRef = 8277FB8E49DC48FBAA3E0385 /* FingerprintDialog$1.class */; };
+		EF1F4580FC4446A19127FC57 /* FingerprintDialog$2.class in Resources */ = {isa = PBXBuildFile; fileRef = D9ADDF2FCE114FA0A45C6F73 /* FingerprintDialog$2.class */; };
+		F9C280C1AD614094BBAAE839 /* FingerprintDialog$DialogResultListener.class in Resources */ = {isa = PBXBuildFile; fileRef = 66C5388BE6FC4E85B8663921 /* FingerprintDialog$DialogResultListener.class */; };
+		92049627649C4783A28E8B04 /* FingerprintDialog.class in Resources */ = {isa = PBXBuildFile; fileRef = 5759D8CD339D4649996690B4 /* FingerprintDialog.class */; };
+		14A33C5CACD44876A46DDC53 /* FingerprintHandler$Callback.class in Resources */ = {isa = PBXBuildFile; fileRef = 73D6F9AD51474782A7046951 /* FingerprintHandler$Callback.class */; };
+		2DBF0A37BBA74B598A7AAA57 /* FingerprintHandler.class in Resources */ = {isa = PBXBuildFile; fileRef = 3247C17739414F45B9033622 /* FingerprintHandler.class */; };
+		3D711CFEEC004AACA1FD2331 /* R-def.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2D6543799604ACC8FD97FF6 /* R-def.txt */; };
+		5FBFD8C02C2B46649FB18581 /* manifest-merger-blame-debug-report.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA7E412B9340848177CC17 /* manifest-merger-blame-debug-report.txt */; };
+		6C9ACB74358F4961A34125E9 /* navigation.json in Resources */ = {isa = PBXBuildFile; fileRef = 476C27AADDA24F508A20871C /* navigation.json */; };
+		12562C4C93484C4C83A0D151 /* ic_fp_40px.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D95724A39894468AC7E62C5 /* ic_fp_40px.png */; };
+		745E8984422349FCB669C3D2 /* fingerprint_dialog.xml in Resources */ = {isa = PBXBuildFile; fileRef = E58C00B449E74C33875B0785 /* fingerprint_dialog.xml */; };
+		57B179790FE840B9A888D4E2 /* package-aware-r.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06BBE44E22474A94BB791901 /* package-aware-r.txt */; };
+		70FD25346AD54090AD5898BB /* manifest-merger-debug-report.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA77F0DF1AE8458888D840F0 /* manifest-merger-debug-report.txt */; };
+		1C168BB2269047F9A5E05CC6 /* previous-compilation-data.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D1796BE7A4402BBD7A0A0 /* previous-compilation-data.bin */; };
+		EDAC1FA276AF405D801F4F16 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = E8F1906CBD0B4946BC8F18EB /* build.gradle */; };
+		B4FE7FF13E034DFC895C3BC0 /* DialogResultHandler.java in Resources */ = {isa = PBXBuildFile; fileRef = 64CF1D3723ED4346A71CCC7E /* DialogResultHandler.java */; };
+		6E4562EA86474F2AA4E12885 /* FingerprintAuthConstants.java in Resources */ = {isa = PBXBuildFile; fileRef = CA55E3F7644A4591BFC360F5 /* FingerprintAuthConstants.java */; };
+		76BF4886AAB940EB935829C2 /* FingerprintAuthModule.java in Resources */ = {isa = PBXBuildFile; fileRef = 268B7B54065C417F870C6536 /* FingerprintAuthModule.java */; };
+		D5018777CF2D40C1AC601B5F /* FingerprintAuthPackage.java in Resources */ = {isa = PBXBuildFile; fileRef = B63B0F9363374AD988A749D7 /* FingerprintAuthPackage.java */; };
+		3FE90963D80747D382A03B1F /* FingerprintCipher.java in Resources */ = {isa = PBXBuildFile; fileRef = 75690C3FCF254E5FBEA8378E /* FingerprintCipher.java */; };
+		FE967A1A17AE4D0094ECE136 /* FingerprintDialog.java in Resources */ = {isa = PBXBuildFile; fileRef = D50B6078C6474041B9687024 /* FingerprintDialog.java */; };
+		07B9EA0E0E67479B8B012707 /* FingerprintHandler.java in Resources */ = {isa = PBXBuildFile; fileRef = 1705AE2E42A441C0BC2BAD34 /* FingerprintHandler.java */; };
+		E4DF14EAFC6348918B731F45 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 2E336F5BDFAE4458A65DBCD8 /* CHANGELOG.md */; };
+		D630D442615C45C9819DD956 /* errors.js in Resources */ = {isa = PBXBuildFile; fileRef = A17511F8DD534011A82BB2BE /* errors.js */; };
+		8AB2BD443AF345EFBF1EE48D /* index.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = 4CE3698F4F0E4C9F8C08C67A /* index.d.ts */; };
+		517CB221686A4A9BB4B5F6BF /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 7529072346DE45B29640E179 /* index.js */; };
+		8153DDC77C7546D096DD2641 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A8559AD86AC34913B924CB4D /* package.json */; };
+		4E768BE7346743C2A089CC28 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DCCA5891B2546E18EF47F9D /* README.md */; };
+		B1906768CD8B403E8B00C71D /* TouchID.android.js in Resources */ = {isa = PBXBuildFile; fileRef = 225841857CEB4027AFA8D963 /* TouchID.android.js */; };
+		9D2D824E2C15487CB4F81A57 /* TouchID.h in Resources */ = {isa = PBXBuildFile; fileRef = D4AC439C495F42FDB6B45FEE /* TouchID.h */; };
+		0B84D0CD67204C6FA9391745 /* TouchID.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 08A68B766B204D70A90F1638 /* TouchID.ios.js */; };
+		0120CC8796F243F6A6936341 /* TouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 625D183C3D4F4605991FECFE /* TouchID.m */; };
+		00850B3F110541609BC00EF0 /* TouchID.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 37EFCF8CB9F945F2A98619C8 /* TouchID.podspec */; };
+		42C0635D9A7A409EA89A60C3 /* project.pbxproj in Resources */ = {isa = PBXBuildFile; fileRef = A73E8255C2314994889A8028 /* project.pbxproj */; };
+		6DF809B7ABC945FBA9A44B59 /* contents.xcworkspacedata in Resources */ = {isa = PBXBuildFile; fileRef = F7047439AF4946FB8CE3C749 /* contents.xcworkspacedata */; };
+		6F1CBA99EC84452AAE0BBA64 /* TouchID.xccheckout in Resources */ = {isa = PBXBuildFile; fileRef = 49CBBD635A7A429EB4844A8E /* TouchID.xccheckout */; };
+		D91C0061E16447B08867A389 /* UserInterfaceState.xcuserstate in Resources */ = {isa = PBXBuildFile; fileRef = 19C7CCBC4ABE4289B376C60B /* UserInterfaceState.xcuserstate */; };
+		85175030BBA5443ABE7C720A /* TouchID.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 3EF74592EAC34305B6B2F034 /* TouchID.xcscheme */; };
+		3B948658FEE3406AB4B9BF17 /* xcschememanagement.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40F4C68ED26F4EB1A5720988 /* xcschememanagement.plist */; };
+		BF98B9A7C0474D5B806EFCF9 /* yarn.lock in Resources */ = {isa = PBXBuildFile; fileRef = AA9221B52C684B05809B4A1B /* yarn.lock */; };
+		25E05EB57DE94752860CDF0E /* CipherStorage$CipherResult.class in Resources */ = {isa = PBXBuildFile; fileRef = B9225EE52AF747B3B7D20EFA /* CipherStorage$CipherResult.class */; };
+		FB76193B1AD04740909780D1 /* CipherStorage$DecryptionContext.class in Resources */ = {isa = PBXBuildFile; fileRef = 15A20F6C8EB44DA2AFD3CC62 /* CipherStorage$DecryptionContext.class */; };
+		949A639F0060432FB1CAC56F /* CipherStorage$DecryptionResult.class in Resources */ = {isa = PBXBuildFile; fileRef = C0B8971A45484DC29B198631 /* CipherStorage$DecryptionResult.class */; };
+		2A4E7630FE9D4362993893AB /* CipherStorage$EncryptionResult.class in Resources */ = {isa = PBXBuildFile; fileRef = F7ABFAB400554F11A9A177AE /* CipherStorage$EncryptionResult.class */; };
+		1B787FB9562E4452AF0A4E6A /* CipherStorage.class in Resources */ = {isa = PBXBuildFile; fileRef = 2AB784C7E95547139BAE6D8B /* CipherStorage.class */; };
+		B1D3424D9EBC4A28A3D45608 /* CipherStorageBase$DecryptBytesHandler.class in Resources */ = {isa = PBXBuildFile; fileRef = 25C147A619E645419E792766 /* CipherStorageBase$DecryptBytesHandler.class */; };
+		5E22C60FBD8D4B5C873D01F1 /* CipherStorageBase$Defaults.class in Resources */ = {isa = PBXBuildFile; fileRef = FB66D2DEE60E42D5BC037A5B /* CipherStorageBase$Defaults.class */; };
+		F6104A1B514B404A995B1ABB /* CipherStorageBase$EncryptStringHandler.class in Resources */ = {isa = PBXBuildFile; fileRef = AA4115F7CA664EA1BBFFF1A4 /* CipherStorageBase$EncryptStringHandler.class */; };
+		B69CC57DBD074DE999AB1EFB /* CipherStorageBase$IV.class in Resources */ = {isa = PBXBuildFile; fileRef = 7523E493BD9A4467B3364B05 /* CipherStorageBase$IV.class */; };
+		E2FFFCE6F2064C62ADA6FF9A /* CipherStorageBase$SelfDestroyKey.class in Resources */ = {isa = PBXBuildFile; fileRef = 5E1C5C7058BF4628AC607ACC /* CipherStorageBase$SelfDestroyKey.class */; };
+		81BEEC10AC394B3FBF3BE5AF /* CipherStorageBase.class in Resources */ = {isa = PBXBuildFile; fileRef = 67C3C312D17540B0801AED1F /* CipherStorageBase.class */; };
+		5BEF1C87A153483A9D2EC9A8 /* CipherStorageFacebookConceal.class in Resources */ = {isa = PBXBuildFile; fileRef = AA048B39F15E49C8A00623B6 /* CipherStorageFacebookConceal.class */; };
+		80E859FFE4CF46C49604A479 /* CipherStorageKeystoreAesCbc.class in Resources */ = {isa = PBXBuildFile; fileRef = 616DF0078C77434EAFE2C069 /* CipherStorageKeystoreAesCbc.class */; };
+		3BCF0B0979E34107ACFC0D5F /* CipherStorageKeystoreRsaEcb.class in Resources */ = {isa = PBXBuildFile; fileRef = 24D273A0D7F5446487F9883A /* CipherStorageKeystoreRsaEcb.class */; };
+		E0048828528B452BA707CF0D /* DecryptionResultHandler.class in Resources */ = {isa = PBXBuildFile; fileRef = CD9DFD93189F4C4594976A33 /* DecryptionResultHandler.class */; };
+		B54CCBD7843F4F98BC9F771B /* DecryptionResultHandlerInteractiveBiometric.class in Resources */ = {isa = PBXBuildFile; fileRef = D38B51C9D8E7465F90E8FB55 /* DecryptionResultHandlerInteractiveBiometric.class */; };
+		123B22529EB64BDA828A5024 /* DecryptionResultHandlerInteractiveBiometricManualRetry.class in Resources */ = {isa = PBXBuildFile; fileRef = BE669A02F0494BEBBA2201C8 /* DecryptionResultHandlerInteractiveBiometricManualRetry.class */; };
+		EC3706C0D79A4FF69EAB8F96 /* DecryptionResultHandlerNonInteractive.class in Resources */ = {isa = PBXBuildFile; fileRef = BB0A6382DA3442669378342C /* DecryptionResultHandlerNonInteractive.class */; };
+		CE77DE8641954F50AC8E61AE /* DecryptionResultHandlerProvider.class in Resources */ = {isa = PBXBuildFile; fileRef = D2EEBCDDEBB844809960F0BD /* DecryptionResultHandlerProvider.class */; };
+		8FBE4255FF9E4F93AA5E5277 /* DeviceAvailability.class in Resources */ = {isa = PBXBuildFile; fileRef = 427842FFC3B9414ABF1DB9E5 /* DeviceAvailability.class */; };
+		08DB9B90E6964E359C167A86 /* CryptoFailedException.class in Resources */ = {isa = PBXBuildFile; fileRef = B9D566CCDD56468CA2E08A6F /* CryptoFailedException.class */; };
+		7986D20399FD4F5EAB1D7DB3 /* EmptyParameterException.class in Resources */ = {isa = PBXBuildFile; fileRef = D18B67F547E14BF293C520CA /* EmptyParameterException.class */; };
+		EE4992BD5BF54BE588634913 /* KeyStoreAccessException.class in Resources */ = {isa = PBXBuildFile; fileRef = 6466E6E8ED144321B83E4F33 /* KeyStoreAccessException.class */; };
+		AB6D65C3E6484408BB165B5E /* KeychainModule$AccessControl.class in Resources */ = {isa = PBXBuildFile; fileRef = 2DC8D5BFF7D24BD4BFC6294E /* KeychainModule$AccessControl.class */; };
+		8B616E4E002C4881A23E2081 /* KeychainModule$AuthPromptOptions.class in Resources */ = {isa = PBXBuildFile; fileRef = 291C58E97C764AFF9127DCD4 /* KeychainModule$AuthPromptOptions.class */; };
+		B6A04673B98742D39B28CCC8 /* KeychainModule$Errors.class in Resources */ = {isa = PBXBuildFile; fileRef = CA1284328BEA4B3687E3B2E9 /* KeychainModule$Errors.class */; };
+		CA581C14AEAB4E42886E50C3 /* KeychainModule$KnownCiphers.class in Resources */ = {isa = PBXBuildFile; fileRef = 11C12C8097604E42B9E318DD /* KeychainModule$KnownCiphers.class */; };
+		65ACF8969E33465480F79474 /* KeychainModule$Maps.class in Resources */ = {isa = PBXBuildFile; fileRef = 4494248911104CB6A5A4A802 /* KeychainModule$Maps.class */; };
+		F2F7B1F91ACF44FF8779678F /* KeychainModule$Rules.class in Resources */ = {isa = PBXBuildFile; fileRef = 5275DB519407415EBBF01CD9 /* KeychainModule$Rules.class */; };
+		0683AE3AE4CA418FB8167F3D /* KeychainModule.class in Resources */ = {isa = PBXBuildFile; fileRef = 60FD34CD8D5C4CFFA085D2EF /* KeychainModule.class */; };
+		031078576D304A348C2A4966 /* KeychainModuleBuilder.class in Resources */ = {isa = PBXBuildFile; fileRef = 9EF83283E3B14B2AAB210BD6 /* KeychainModuleBuilder.class */; };
+		75048794C3294A6CAC77B416 /* KeychainPackage.class in Resources */ = {isa = PBXBuildFile; fileRef = 901C1C26BEE2412CA8758342 /* KeychainPackage.class */; };
+		DF2D72C570974CDFAFC4CF50 /* PrefsStorage$ResultSet.class in Resources */ = {isa = PBXBuildFile; fileRef = 648648E9A03246E6B0CFFE69 /* PrefsStorage$ResultSet.class */; };
+		FFB74CA5A7CD4B8782AD5D04 /* PrefsStorage.class in Resources */ = {isa = PBXBuildFile; fileRef = B9D966E0021D45C0821EBE3A /* PrefsStorage.class */; };
+		DE581C8870A94101B4E132E9 /* SecurityLevel.class in Resources */ = {isa = PBXBuildFile; fileRef = BF44864CB746479584BD1671 /* SecurityLevel.class */; };
+		41DDE7B21B7D43709A66FEC8 /* CipherStorage.java in Resources */ = {isa = PBXBuildFile; fileRef = 337DA97A2DFF476DB5E3C149 /* CipherStorage.java */; };
+		DEF8C6FEC39848EE8312CB74 /* CipherStorageBase.java in Resources */ = {isa = PBXBuildFile; fileRef = 5EB8B23D9C0C4325B01DF8B0 /* CipherStorageBase.java */; };
+		547A2FC0ADFF43A582050B10 /* CipherStorageFacebookConceal.java in Resources */ = {isa = PBXBuildFile; fileRef = CC5E080AEA7A41508738F831 /* CipherStorageFacebookConceal.java */; };
+		C7D4FCEA664E4654B8C9C7D3 /* CipherStorageKeystoreAesCbc.java in Resources */ = {isa = PBXBuildFile; fileRef = B402B6C5F1D44DA9820EB455 /* CipherStorageKeystoreAesCbc.java */; };
+		A1279F0E7827475D8213686B /* CipherStorageKeystoreRsaEcb.java in Resources */ = {isa = PBXBuildFile; fileRef = E9D6E5D1B9D04980A9BCA471 /* CipherStorageKeystoreRsaEcb.java */; };
+		AB772A105BE3460A881A3258 /* DecryptionResultHandler.java in Resources */ = {isa = PBXBuildFile; fileRef = 34BEA716C8E24D8984BEF8FC /* DecryptionResultHandler.java */; };
+		AAF2D866F6BC4171A92A994C /* DecryptionResultHandlerInteractiveBiometric.java in Resources */ = {isa = PBXBuildFile; fileRef = CD6C690724A44CEDB773203E /* DecryptionResultHandlerInteractiveBiometric.java */; };
+		3F013D3E78454CEF92B2C450 /* DecryptionResultHandlerInteractiveBiometricManualRetry.java in Resources */ = {isa = PBXBuildFile; fileRef = E3467353450E484786BF99E0 /* DecryptionResultHandlerInteractiveBiometricManualRetry.java */; };
+		EA4179FFD1254D27A84135D7 /* DecryptionResultHandlerNonInteractive.java in Resources */ = {isa = PBXBuildFile; fileRef = 0A219EF5184B4A99AF2B0E3E /* DecryptionResultHandlerNonInteractive.java */; };
+		70DCF04CDBBF4F4F85811612 /* DecryptionResultHandlerProvider.java in Resources */ = {isa = PBXBuildFile; fileRef = 8624FE436C60427EAA7CF581 /* DecryptionResultHandlerProvider.java */; };
+		094D8373D3B74561894462E7 /* DeviceAvailability.java in Resources */ = {isa = PBXBuildFile; fileRef = F5AB263CB85041DCAA6E222B /* DeviceAvailability.java */; };
+		C1170AB12C8C4BBBB9727C4E /* CryptoFailedException.java in Resources */ = {isa = PBXBuildFile; fileRef = E52433600DF14FEF9E8E4779 /* CryptoFailedException.java */; };
+		9799A70BB3D2463D88544C8B /* EmptyParameterException.java in Resources */ = {isa = PBXBuildFile; fileRef = B8591E337054436294F69D9B /* EmptyParameterException.java */; };
+		5813A6E020AD4226979EA539 /* KeyStoreAccessException.java in Resources */ = {isa = PBXBuildFile; fileRef = A2E93ED74A5249728F7BACFF /* KeyStoreAccessException.java */; };
+		CF2A9A14478D4819A4A83CCE /* KeychainModule.java in Resources */ = {isa = PBXBuildFile; fileRef = BE0EAAB9B2AC4678874DEFF7 /* KeychainModule.java */; };
+		7D925BD47BB04B9FBB112789 /* KeychainModuleBuilder.java in Resources */ = {isa = PBXBuildFile; fileRef = B16C560FBB95493297447B90 /* KeychainModuleBuilder.java */; };
+		E0F88D35728D4231B4703BCB /* KeychainPackage.java in Resources */ = {isa = PBXBuildFile; fileRef = 9BB5D2F0823B411A8B3090E9 /* KeychainPackage.java */; };
+		66CAE11772014A2BA7D01E18 /* PrefsStorage.java in Resources */ = {isa = PBXBuildFile; fileRef = E54EA118E3C3401B913B5535 /* PrefsStorage.java */; };
+		7B4F35BF93EC40DFA4187860 /* SecurityLevel.java in Resources */ = {isa = PBXBuildFile; fileRef = 2967232BE4E0460FBFC41EAD /* SecurityLevel.java */; };
+		C73E166170BB4227BB97D1CB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1E8FB10507804DD2A57B1F18 /* LICENSE */; };
+		7E0DFFCFFCE0434AAD28606E /* RNKeychain.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 69155A4F34C64154BD4E1B1F /* RNKeychain.podspec */; };
+		8380A674130346728BDC7DD4 /* RNKeychainManager.h in Resources */ = {isa = PBXBuildFile; fileRef = E22AC5F367C74FB2B9C9148E /* RNKeychainManager.h */; };
+		943FC107F5F341D9B8D513D5 /* RNKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B7D8DF86BD404AA2DA8A6A /* RNKeychainManager.m */; };
+		CA9A9256FF8544F195430A07 /* react-native-keychain.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = D2DD85AEF17544EA83BFE64F /* react-native-keychain.d.ts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +168,130 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FrostEcommerce/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-FrostEcommerce-FrostEcommerceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FrostEcommerce-FrostEcommerceTests.release.xcconfig"; path = "Target Support Files/Pods-FrostEcommerce-FrostEcommerceTests/Pods-FrostEcommerce-FrostEcommerceTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		185CBB5D6C9042EFA4DA65F6 /* .codeclimate.yml */ = {isa = PBXFileReference; name = ".codeclimate.yml"; path = "../node_modules/react-native-touch-id/.codeclimate.yml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAF55C3CE5024CC7B27F3B5E /* .eslintignore */ = {isa = PBXFileReference; name = ".eslintignore"; path = "../node_modules/react-native-touch-id/.eslintignore"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D59875097E54366A9B81ACB /* .eslintrc */ = {isa = PBXFileReference; name = ".eslintrc"; path = "../node_modules/react-native-touch-id/.eslintrc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C954B9E7A3645FCB9A24DD3 /* .jshintrc */ = {isa = PBXFileReference; name = ".jshintrc"; path = "../node_modules/react-native-touch-id/.jshintrc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84AAFF01D14A429A85EE2693 /* .travis.yml */ = {isa = PBXFileReference; name = ".travis.yml"; path = "../node_modules/react-native-touch-id/.travis.yml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4EE11E721AA64D0C82CDCE9C /* results.bin */ = {isa = PBXFileReference; name = "results.bin"; path = "../node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/results.bin"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CE3D6F053B9E4E3494CF7EC2 /* classes.dex */ = {isa = PBXFileReference; name = "classes.dex"; path = "../node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/transformed/classes/classes.dex"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC02345D9505462AA25D8878 /* BuildConfig.java */ = {isa = PBXFileReference; name = "BuildConfig.java"; path = "../node_modules/react-native-touch-id/android/build/generated/source/buildConfig/debug/com/rnfingerprint/BuildConfig.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E11CFC3EE21A46C8A698DC71 /* AndroidManifest.xml */ = {isa = PBXFileReference; name = "AndroidManifest.xml"; path = "../node_modules/react-native-touch-id/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B0F4F5C78D39443795BDFCD1 /* output-metadata.json */ = {isa = PBXFileReference; name = "output-metadata.json"; path = "../node_modules/react-native-touch-id/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2EE04EEE495C41B1A5E3A8F0 /* aar-metadata.properties */ = {isa = PBXFileReference; name = "aar-metadata.properties"; path = "../node_modules/react-native-touch-id/android/build/intermediates/aar_metadata/debug/aar-metadata.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0462DB7BD21C4986BB2EE7A2 /* annotationProcessors.json */ = {isa = PBXFileReference; name = "annotationProcessors.json"; path = "../node_modules/react-native-touch-id/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A9E0FE30920474B8C57D548 /* drawable_ic_fp_40px.png.flat */ = {isa = PBXFileReference; name = "drawable_ic_fp_40px.png.flat"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/drawable_ic_fp_40px.png.flat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C536F60241B49B6970E5497 /* layout_fingerprint_dialog.xml.flat */ = {isa = PBXFileReference; name = "layout_fingerprint_dialog.xml.flat"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/layout_fingerprint_dialog.xml.flat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9A425B653F164CED8259BAB3 /* classes.jar */ = {isa = PBXFileReference; name = "classes.jar"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compile_library_classes_jar/debug/classes.jar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		33EE82932A8B48CCB1D6A3D7 /* R.jar */ = {isa = PBXFileReference; name = "R.jar"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compile_r_class_jar/debug/R.jar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFC53E8CEB434CBB9A92EFFA /* R.txt */ = {isa = PBXFileReference; name = "R.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compile_symbol_list/debug/R.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9723C0BD29304F7F8D8B060D /* compile-file-map.properties */ = {isa = PBXFileReference; name = "compile-file-map.properties"; path = "../node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2DBA5205517E46B4915CE252 /* merger.xml */ = {isa = PBXFileReference; name = "merger.xml"; path = "../node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBE41F33755C42FC80A33FE0 /* BuildConfig.class */ = {isa = PBXFileReference; name = "BuildConfig.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/BuildConfig.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		33C437100F76465E8EAF9C79 /* DialogResultHandler.class */ = {isa = PBXFileReference; name = "DialogResultHandler.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/DialogResultHandler.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D4F2ED23B5B448E939C5A3B /* FingerprintAuthConstants.class */ = {isa = PBXFileReference; name = "FingerprintAuthConstants.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintAuthConstants.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B90BCD3D4A4B4DFD918C14E6 /* FingerprintAuthModule.class */ = {isa = PBXFileReference; name = "FingerprintAuthModule.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintAuthModule.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9E5B935CC3F41258EA0C644 /* FingerprintAuthPackage.class */ = {isa = PBXFileReference; name = "FingerprintAuthPackage.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintAuthPackage.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		050E621F0DD446C5B9D6EDCD /* FingerprintCipher.class */ = {isa = PBXFileReference; name = "FingerprintCipher.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintCipher.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8277FB8E49DC48FBAA3E0385 /* FingerprintDialog$1.class */ = {isa = PBXFileReference; name = "FingerprintDialog$1.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog$1.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9ADDF2FCE114FA0A45C6F73 /* FingerprintDialog$2.class */ = {isa = PBXFileReference; name = "FingerprintDialog$2.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog$2.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66C5388BE6FC4E85B8663921 /* FingerprintDialog$DialogResultListener.class */ = {isa = PBXFileReference; name = "FingerprintDialog$DialogResultListener.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog$DialogResultListener.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5759D8CD339D4649996690B4 /* FingerprintDialog.class */ = {isa = PBXFileReference; name = "FingerprintDialog.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintDialog.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73D6F9AD51474782A7046951 /* FingerprintHandler$Callback.class */ = {isa = PBXFileReference; name = "FingerprintHandler$Callback.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintHandler$Callback.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3247C17739414F45B9033622 /* FingerprintHandler.class */ = {isa = PBXFileReference; name = "FingerprintHandler.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintHandler.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2D6543799604ACC8FD97FF6 /* R-def.txt */ = {isa = PBXFileReference; name = "R-def.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/local_only_symbol_list/debug/R-def.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0EBA7E412B9340848177CC17 /* manifest-merger-blame-debug-report.txt */ = {isa = PBXFileReference; name = "manifest-merger-blame-debug-report.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		476C27AADDA24F508A20871C /* navigation.json */ = {isa = PBXFileReference; name = "navigation.json"; path = "../node_modules/react-native-touch-id/android/build/intermediates/navigation_json/debug/navigation.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D95724A39894468AC7E62C5 /* ic_fp_40px.png */ = {isa = PBXFileReference; name = "ic_fp_40px.png"; path = "../node_modules/react-native-touch-id/android/build/intermediates/packaged_res/debug/drawable/ic_fp_40px.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E58C00B449E74C33875B0785 /* fingerprint_dialog.xml */ = {isa = PBXFileReference; name = "fingerprint_dialog.xml"; path = "../node_modules/react-native-touch-id/android/build/intermediates/packaged_res/debug/layout/fingerprint_dialog.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06BBE44E22474A94BB791901 /* package-aware-r.txt */ = {isa = PBXFileReference; name = "package-aware-r.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA77F0DF1AE8458888D840F0 /* manifest-merger-debug-report.txt */ = {isa = PBXFileReference; name = "manifest-merger-debug-report.txt"; path = "../node_modules/react-native-touch-id/android/build/outputs/logs/manifest-merger-debug-report.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A8D1796BE7A4402BBD7A0A0 /* previous-compilation-data.bin */ = {isa = PBXFileReference; name = "previous-compilation-data.bin"; path = "../node_modules/react-native-touch-id/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8F1906CBD0B4946BC8F18EB /* build.gradle */ = {isa = PBXFileReference; name = "build.gradle"; path = "../node_modules/react-native-touch-id/android/build.gradle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64CF1D3723ED4346A71CCC7E /* DialogResultHandler.java */ = {isa = PBXFileReference; name = "DialogResultHandler.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/DialogResultHandler.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA55E3F7644A4591BFC360F5 /* FingerprintAuthConstants.java */ = {isa = PBXFileReference; name = "FingerprintAuthConstants.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintAuthConstants.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		268B7B54065C417F870C6536 /* FingerprintAuthModule.java */ = {isa = PBXFileReference; name = "FingerprintAuthModule.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintAuthModule.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B63B0F9363374AD988A749D7 /* FingerprintAuthPackage.java */ = {isa = PBXFileReference; name = "FingerprintAuthPackage.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintAuthPackage.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75690C3FCF254E5FBEA8378E /* FingerprintCipher.java */ = {isa = PBXFileReference; name = "FingerprintCipher.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintCipher.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D50B6078C6474041B9687024 /* FingerprintDialog.java */ = {isa = PBXFileReference; name = "FingerprintDialog.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintDialog.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1705AE2E42A441C0BC2BAD34 /* FingerprintHandler.java */ = {isa = PBXFileReference; name = "FingerprintHandler.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/FingerprintHandler.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2E336F5BDFAE4458A65DBCD8 /* CHANGELOG.md */ = {isa = PBXFileReference; name = "CHANGELOG.md"; path = "../node_modules/react-native-touch-id/CHANGELOG.md"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A17511F8DD534011A82BB2BE /* errors.js */ = {isa = PBXFileReference; name = "errors.js"; path = "../node_modules/react-native-touch-id/data/errors.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CE3698F4F0E4C9F8C08C67A /* index.d.ts */ = {isa = PBXFileReference; name = "index.d.ts"; path = "../node_modules/react-native-touch-id/index.d.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7529072346DE45B29640E179 /* index.js */ = {isa = PBXFileReference; name = "index.js"; path = "../node_modules/react-native-touch-id/index.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8559AD86AC34913B924CB4D /* package.json */ = {isa = PBXFileReference; name = "package.json"; path = "../node_modules/react-native-touch-id/package.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DCCA5891B2546E18EF47F9D /* README.md */ = {isa = PBXFileReference; name = "README.md"; path = "../node_modules/react-native-touch-id/README.md"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		225841857CEB4027AFA8D963 /* TouchID.android.js */ = {isa = PBXFileReference; name = "TouchID.android.js"; path = "../node_modules/react-native-touch-id/TouchID.android.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4AC439C495F42FDB6B45FEE /* TouchID.h */ = {isa = PBXFileReference; name = "TouchID.h"; path = "../node_modules/react-native-touch-id/TouchID.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		08A68B766B204D70A90F1638 /* TouchID.ios.js */ = {isa = PBXFileReference; name = "TouchID.ios.js"; path = "../node_modules/react-native-touch-id/TouchID.ios.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		625D183C3D4F4605991FECFE /* TouchID.m */ = {isa = PBXFileReference; name = "TouchID.m"; path = "../node_modules/react-native-touch-id/TouchID.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		37EFCF8CB9F945F2A98619C8 /* TouchID.podspec */ = {isa = PBXFileReference; name = "TouchID.podspec"; path = "../node_modules/react-native-touch-id/TouchID.podspec"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A73E8255C2314994889A8028 /* project.pbxproj */ = {isa = PBXFileReference; name = "project.pbxproj"; path = "../node_modules/react-native-touch-id/TouchID.xcodeproj/project.pbxproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7047439AF4946FB8CE3C749 /* contents.xcworkspacedata */ = {isa = PBXFileReference; name = "contents.xcworkspacedata"; path = "../node_modules/react-native-touch-id/TouchID.xcodeproj/project.xcworkspace/contents.xcworkspacedata"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49CBBD635A7A429EB4844A8E /* TouchID.xccheckout */ = {isa = PBXFileReference; name = "TouchID.xccheckout"; path = "../node_modules/react-native-touch-id/TouchID.xcodeproj/project.xcworkspace/xcshareddata/TouchID.xccheckout"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19C7CCBC4ABE4289B376C60B /* UserInterfaceState.xcuserstate */ = {isa = PBXFileReference; name = "UserInterfaceState.xcuserstate"; path = "../node_modules/react-native-touch-id/TouchID.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EF74592EAC34305B6B2F034 /* TouchID.xcscheme */ = {isa = PBXFileReference; name = "TouchID.xcscheme"; path = "../node_modules/react-native-touch-id/TouchID.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/TouchID.xcscheme"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		40F4C68ED26F4EB1A5720988 /* xcschememanagement.plist */ = {isa = PBXFileReference; name = "xcschememanagement.plist"; path = "../node_modules/react-native-touch-id/TouchID.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		AA9221B52C684B05809B4A1B /* yarn.lock */ = {isa = PBXFileReference; name = "yarn.lock"; path = "../node_modules/react-native-touch-id/yarn.lock"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9225EE52AF747B3B7D20EFA /* CipherStorage$CipherResult.class */ = {isa = PBXFileReference; name = "CipherStorage$CipherResult.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$CipherResult.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15A20F6C8EB44DA2AFD3CC62 /* CipherStorage$DecryptionContext.class */ = {isa = PBXFileReference; name = "CipherStorage$DecryptionContext.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$DecryptionContext.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0B8971A45484DC29B198631 /* CipherStorage$DecryptionResult.class */ = {isa = PBXFileReference; name = "CipherStorage$DecryptionResult.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$DecryptionResult.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7ABFAB400554F11A9A177AE /* CipherStorage$EncryptionResult.class */ = {isa = PBXFileReference; name = "CipherStorage$EncryptionResult.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage$EncryptionResult.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2AB784C7E95547139BAE6D8B /* CipherStorage.class */ = {isa = PBXFileReference; name = "CipherStorage.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorage.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25C147A619E645419E792766 /* CipherStorageBase$DecryptBytesHandler.class */ = {isa = PBXFileReference; name = "CipherStorageBase$DecryptBytesHandler.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$DecryptBytesHandler.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB66D2DEE60E42D5BC037A5B /* CipherStorageBase$Defaults.class */ = {isa = PBXFileReference; name = "CipherStorageBase$Defaults.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$Defaults.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA4115F7CA664EA1BBFFF1A4 /* CipherStorageBase$EncryptStringHandler.class */ = {isa = PBXFileReference; name = "CipherStorageBase$EncryptStringHandler.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$EncryptStringHandler.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7523E493BD9A4467B3364B05 /* CipherStorageBase$IV.class */ = {isa = PBXFileReference; name = "CipherStorageBase$IV.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$IV.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E1C5C7058BF4628AC607ACC /* CipherStorageBase$SelfDestroyKey.class */ = {isa = PBXFileReference; name = "CipherStorageBase$SelfDestroyKey.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase$SelfDestroyKey.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67C3C312D17540B0801AED1F /* CipherStorageBase.class */ = {isa = PBXFileReference; name = "CipherStorageBase.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageBase.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA048B39F15E49C8A00623B6 /* CipherStorageFacebookConceal.class */ = {isa = PBXFileReference; name = "CipherStorageFacebookConceal.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageFacebookConceal.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		616DF0078C77434EAFE2C069 /* CipherStorageKeystoreAesCbc.class */ = {isa = PBXFileReference; name = "CipherStorageKeystoreAesCbc.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageKeystoreAesCbc.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24D273A0D7F5446487F9883A /* CipherStorageKeystoreRsaEcb.class */ = {isa = PBXFileReference; name = "CipherStorageKeystoreRsaEcb.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/cipherStorage/CipherStorageKeystoreRsaEcb.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD9DFD93189F4C4594976A33 /* DecryptionResultHandler.class */ = {isa = PBXFileReference; name = "DecryptionResultHandler.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandler.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D38B51C9D8E7465F90E8FB55 /* DecryptionResultHandlerInteractiveBiometric.class */ = {isa = PBXFileReference; name = "DecryptionResultHandlerInteractiveBiometric.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometric.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE669A02F0494BEBBA2201C8 /* DecryptionResultHandlerInteractiveBiometricManualRetry.class */ = {isa = PBXFileReference; name = "DecryptionResultHandlerInteractiveBiometricManualRetry.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometricManualRetry.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB0A6382DA3442669378342C /* DecryptionResultHandlerNonInteractive.class */ = {isa = PBXFileReference; name = "DecryptionResultHandlerNonInteractive.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerNonInteractive.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2EEBCDDEBB844809960F0BD /* DecryptionResultHandlerProvider.class */ = {isa = PBXFileReference; name = "DecryptionResultHandlerProvider.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerProvider.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		427842FFC3B9414ABF1DB9E5 /* DeviceAvailability.class */ = {isa = PBXFileReference; name = "DeviceAvailability.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/DeviceAvailability.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9D566CCDD56468CA2E08A6F /* CryptoFailedException.class */ = {isa = PBXFileReference; name = "CryptoFailedException.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/exceptions/CryptoFailedException.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D18B67F547E14BF293C520CA /* EmptyParameterException.class */ = {isa = PBXFileReference; name = "EmptyParameterException.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/exceptions/EmptyParameterException.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6466E6E8ED144321B83E4F33 /* KeyStoreAccessException.class */ = {isa = PBXFileReference; name = "KeyStoreAccessException.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/exceptions/KeyStoreAccessException.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2DC8D5BFF7D24BD4BFC6294E /* KeychainModule$AccessControl.class */ = {isa = PBXFileReference; name = "KeychainModule$AccessControl.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$AccessControl.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		291C58E97C764AFF9127DCD4 /* KeychainModule$AuthPromptOptions.class */ = {isa = PBXFileReference; name = "KeychainModule$AuthPromptOptions.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$AuthPromptOptions.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA1284328BEA4B3687E3B2E9 /* KeychainModule$Errors.class */ = {isa = PBXFileReference; name = "KeychainModule$Errors.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Errors.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11C12C8097604E42B9E318DD /* KeychainModule$KnownCiphers.class */ = {isa = PBXFileReference; name = "KeychainModule$KnownCiphers.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$KnownCiphers.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4494248911104CB6A5A4A802 /* KeychainModule$Maps.class */ = {isa = PBXFileReference; name = "KeychainModule$Maps.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Maps.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5275DB519407415EBBF01CD9 /* KeychainModule$Rules.class */ = {isa = PBXFileReference; name = "KeychainModule$Rules.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Rules.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60FD34CD8D5C4CFFA085D2EF /* KeychainModule.class */ = {isa = PBXFileReference; name = "KeychainModule.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EF83283E3B14B2AAB210BD6 /* KeychainModuleBuilder.class */ = {isa = PBXFileReference; name = "KeychainModuleBuilder.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModuleBuilder.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		901C1C26BEE2412CA8758342 /* KeychainPackage.class */ = {isa = PBXFileReference; name = "KeychainPackage.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainPackage.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		648648E9A03246E6B0CFFE69 /* PrefsStorage$ResultSet.class */ = {isa = PBXFileReference; name = "PrefsStorage$ResultSet.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/PrefsStorage$ResultSet.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9D966E0021D45C0821EBE3A /* PrefsStorage.class */ = {isa = PBXFileReference; name = "PrefsStorage.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/PrefsStorage.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF44864CB746479584BD1671 /* SecurityLevel.class */ = {isa = PBXFileReference; name = "SecurityLevel.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/SecurityLevel.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		337DA97A2DFF476DB5E3C149 /* CipherStorage.java */ = {isa = PBXFileReference; name = "CipherStorage.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorage.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5EB8B23D9C0C4325B01DF8B0 /* CipherStorageBase.java */ = {isa = PBXFileReference; name = "CipherStorageBase.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageBase.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC5E080AEA7A41508738F831 /* CipherStorageFacebookConceal.java */ = {isa = PBXFileReference; name = "CipherStorageFacebookConceal.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageFacebookConceal.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B402B6C5F1D44DA9820EB455 /* CipherStorageKeystoreAesCbc.java */ = {isa = PBXFileReference; name = "CipherStorageKeystoreAesCbc.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageKeystoreAesCbc.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9D6E5D1B9D04980A9BCA471 /* CipherStorageKeystoreRsaEcb.java */ = {isa = PBXFileReference; name = "CipherStorageKeystoreRsaEcb.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/cipherStorage/CipherStorageKeystoreRsaEcb.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34BEA716C8E24D8984BEF8FC /* DecryptionResultHandler.java */ = {isa = PBXFileReference; name = "DecryptionResultHandler.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandler.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD6C690724A44CEDB773203E /* DecryptionResultHandlerInteractiveBiometric.java */ = {isa = PBXFileReference; name = "DecryptionResultHandlerInteractiveBiometric.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometric.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3467353450E484786BF99E0 /* DecryptionResultHandlerInteractiveBiometricManualRetry.java */ = {isa = PBXFileReference; name = "DecryptionResultHandlerInteractiveBiometricManualRetry.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerInteractiveBiometricManualRetry.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A219EF5184B4A99AF2B0E3E /* DecryptionResultHandlerNonInteractive.java */ = {isa = PBXFileReference; name = "DecryptionResultHandlerNonInteractive.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerNonInteractive.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8624FE436C60427EAA7CF581 /* DecryptionResultHandlerProvider.java */ = {isa = PBXFileReference; name = "DecryptionResultHandlerProvider.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/decryptionHandler/DecryptionResultHandlerProvider.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5AB263CB85041DCAA6E222B /* DeviceAvailability.java */ = {isa = PBXFileReference; name = "DeviceAvailability.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/DeviceAvailability.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E52433600DF14FEF9E8E4779 /* CryptoFailedException.java */ = {isa = PBXFileReference; name = "CryptoFailedException.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/exceptions/CryptoFailedException.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8591E337054436294F69D9B /* EmptyParameterException.java */ = {isa = PBXFileReference; name = "EmptyParameterException.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/exceptions/EmptyParameterException.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2E93ED74A5249728F7BACFF /* KeyStoreAccessException.java */ = {isa = PBXFileReference; name = "KeyStoreAccessException.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/exceptions/KeyStoreAccessException.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE0EAAB9B2AC4678874DEFF7 /* KeychainModule.java */ = {isa = PBXFileReference; name = "KeychainModule.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/KeychainModule.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B16C560FBB95493297447B90 /* KeychainModuleBuilder.java */ = {isa = PBXFileReference; name = "KeychainModuleBuilder.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/KeychainModuleBuilder.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9BB5D2F0823B411A8B3090E9 /* KeychainPackage.java */ = {isa = PBXFileReference; name = "KeychainPackage.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/KeychainPackage.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E54EA118E3C3401B913B5535 /* PrefsStorage.java */ = {isa = PBXFileReference; name = "PrefsStorage.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/PrefsStorage.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2967232BE4E0460FBFC41EAD /* SecurityLevel.java */ = {isa = PBXFileReference; name = "SecurityLevel.java"; path = "../node_modules/react-native-keychain/android/src/main/java/com/oblador/keychain/SecurityLevel.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E8FB10507804DD2A57B1F18 /* LICENSE */ = {isa = PBXFileReference; name = "LICENSE"; path = "../node_modules/react-native-keychain/LICENSE"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69155A4F34C64154BD4E1B1F /* RNKeychain.podspec */ = {isa = PBXFileReference; name = "RNKeychain.podspec"; path = "../node_modules/react-native-keychain/RNKeychain.podspec"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E22AC5F367C74FB2B9C9148E /* RNKeychainManager.h */ = {isa = PBXFileReference; name = "RNKeychainManager.h"; path = "../node_modules/react-native-keychain/RNKeychainManager/RNKeychainManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		74B7D8DF86BD404AA2DA8A6A /* RNKeychainManager.m */ = {isa = PBXFileReference; name = "RNKeychainManager.m"; path = "../node_modules/react-native-keychain/RNKeychainManager/RNKeychainManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		D2DD85AEF17544EA83BFE64F /* react-native-keychain.d.ts */ = {isa = PBXFileReference; name = "react-native-keychain.d.ts"; path = "../node_modules/react-native-keychain/typings/react-native-keychain.d.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +370,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				53EBADE2845A40E2B602F40D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +396,138 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		53EBADE2845A40E2B602F40D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				185CBB5D6C9042EFA4DA65F6 /* .codeclimate.yml */,
+				BAF55C3CE5024CC7B27F3B5E /* .eslintignore */,
+				9D59875097E54366A9B81ACB /* .eslintrc */,
+				0C954B9E7A3645FCB9A24DD3 /* .jshintrc */,
+				84AAFF01D14A429A85EE2693 /* .travis.yml */,
+				4EE11E721AA64D0C82CDCE9C /* results.bin */,
+				CE3D6F053B9E4E3494CF7EC2 /* classes.dex */,
+				EC02345D9505462AA25D8878 /* BuildConfig.java */,
+				E11CFC3EE21A46C8A698DC71 /* AndroidManifest.xml */,
+				B0F4F5C78D39443795BDFCD1 /* output-metadata.json */,
+				2EE04EEE495C41B1A5E3A8F0 /* aar-metadata.properties */,
+				0462DB7BD21C4986BB2EE7A2 /* annotationProcessors.json */,
+				6A9E0FE30920474B8C57D548 /* drawable_ic_fp_40px.png.flat */,
+				8C536F60241B49B6970E5497 /* layout_fingerprint_dialog.xml.flat */,
+				9A425B653F164CED8259BAB3 /* classes.jar */,
+				33EE82932A8B48CCB1D6A3D7 /* R.jar */,
+				FFC53E8CEB434CBB9A92EFFA /* R.txt */,
+				9723C0BD29304F7F8D8B060D /* compile-file-map.properties */,
+				2DBA5205517E46B4915CE252 /* merger.xml */,
+				DBE41F33755C42FC80A33FE0 /* BuildConfig.class */,
+				33C437100F76465E8EAF9C79 /* DialogResultHandler.class */,
+				3D4F2ED23B5B448E939C5A3B /* FingerprintAuthConstants.class */,
+				B90BCD3D4A4B4DFD918C14E6 /* FingerprintAuthModule.class */,
+				F9E5B935CC3F41258EA0C644 /* FingerprintAuthPackage.class */,
+				050E621F0DD446C5B9D6EDCD /* FingerprintCipher.class */,
+				8277FB8E49DC48FBAA3E0385 /* FingerprintDialog$1.class */,
+				D9ADDF2FCE114FA0A45C6F73 /* FingerprintDialog$2.class */,
+				66C5388BE6FC4E85B8663921 /* FingerprintDialog$DialogResultListener.class */,
+				5759D8CD339D4649996690B4 /* FingerprintDialog.class */,
+				73D6F9AD51474782A7046951 /* FingerprintHandler$Callback.class */,
+				3247C17739414F45B9033622 /* FingerprintHandler.class */,
+				B2D6543799604ACC8FD97FF6 /* R-def.txt */,
+				0EBA7E412B9340848177CC17 /* manifest-merger-blame-debug-report.txt */,
+				476C27AADDA24F508A20871C /* navigation.json */,
+				6D95724A39894468AC7E62C5 /* ic_fp_40px.png */,
+				E58C00B449E74C33875B0785 /* fingerprint_dialog.xml */,
+				06BBE44E22474A94BB791901 /* package-aware-r.txt */,
+				CA77F0DF1AE8458888D840F0 /* manifest-merger-debug-report.txt */,
+				8A8D1796BE7A4402BBD7A0A0 /* previous-compilation-data.bin */,
+				E8F1906CBD0B4946BC8F18EB /* build.gradle */,
+				64CF1D3723ED4346A71CCC7E /* DialogResultHandler.java */,
+				CA55E3F7644A4591BFC360F5 /* FingerprintAuthConstants.java */,
+				268B7B54065C417F870C6536 /* FingerprintAuthModule.java */,
+				B63B0F9363374AD988A749D7 /* FingerprintAuthPackage.java */,
+				75690C3FCF254E5FBEA8378E /* FingerprintCipher.java */,
+				D50B6078C6474041B9687024 /* FingerprintDialog.java */,
+				1705AE2E42A441C0BC2BAD34 /* FingerprintHandler.java */,
+				2E336F5BDFAE4458A65DBCD8 /* CHANGELOG.md */,
+				A17511F8DD534011A82BB2BE /* errors.js */,
+				4CE3698F4F0E4C9F8C08C67A /* index.d.ts */,
+				7529072346DE45B29640E179 /* index.js */,
+				A8559AD86AC34913B924CB4D /* package.json */,
+				0DCCA5891B2546E18EF47F9D /* README.md */,
+				225841857CEB4027AFA8D963 /* TouchID.android.js */,
+				D4AC439C495F42FDB6B45FEE /* TouchID.h */,
+				08A68B766B204D70A90F1638 /* TouchID.ios.js */,
+				625D183C3D4F4605991FECFE /* TouchID.m */,
+				37EFCF8CB9F945F2A98619C8 /* TouchID.podspec */,
+				A73E8255C2314994889A8028 /* project.pbxproj */,
+				F7047439AF4946FB8CE3C749 /* contents.xcworkspacedata */,
+				49CBBD635A7A429EB4844A8E /* TouchID.xccheckout */,
+				19C7CCBC4ABE4289B376C60B /* UserInterfaceState.xcuserstate */,
+				3EF74592EAC34305B6B2F034 /* TouchID.xcscheme */,
+				40F4C68ED26F4EB1A5720988 /* xcschememanagement.plist */,
+				AA9221B52C684B05809B4A1B /* yarn.lock */,
+				B9225EE52AF747B3B7D20EFA /* CipherStorage$CipherResult.class */,
+				15A20F6C8EB44DA2AFD3CC62 /* CipherStorage$DecryptionContext.class */,
+				C0B8971A45484DC29B198631 /* CipherStorage$DecryptionResult.class */,
+				F7ABFAB400554F11A9A177AE /* CipherStorage$EncryptionResult.class */,
+				2AB784C7E95547139BAE6D8B /* CipherStorage.class */,
+				25C147A619E645419E792766 /* CipherStorageBase$DecryptBytesHandler.class */,
+				FB66D2DEE60E42D5BC037A5B /* CipherStorageBase$Defaults.class */,
+				AA4115F7CA664EA1BBFFF1A4 /* CipherStorageBase$EncryptStringHandler.class */,
+				7523E493BD9A4467B3364B05 /* CipherStorageBase$IV.class */,
+				5E1C5C7058BF4628AC607ACC /* CipherStorageBase$SelfDestroyKey.class */,
+				67C3C312D17540B0801AED1F /* CipherStorageBase.class */,
+				AA048B39F15E49C8A00623B6 /* CipherStorageFacebookConceal.class */,
+				616DF0078C77434EAFE2C069 /* CipherStorageKeystoreAesCbc.class */,
+				24D273A0D7F5446487F9883A /* CipherStorageKeystoreRsaEcb.class */,
+				CD9DFD93189F4C4594976A33 /* DecryptionResultHandler.class */,
+				D38B51C9D8E7465F90E8FB55 /* DecryptionResultHandlerInteractiveBiometric.class */,
+				BE669A02F0494BEBBA2201C8 /* DecryptionResultHandlerInteractiveBiometricManualRetry.class */,
+				BB0A6382DA3442669378342C /* DecryptionResultHandlerNonInteractive.class */,
+				D2EEBCDDEBB844809960F0BD /* DecryptionResultHandlerProvider.class */,
+				427842FFC3B9414ABF1DB9E5 /* DeviceAvailability.class */,
+				B9D566CCDD56468CA2E08A6F /* CryptoFailedException.class */,
+				D18B67F547E14BF293C520CA /* EmptyParameterException.class */,
+				6466E6E8ED144321B83E4F33 /* KeyStoreAccessException.class */,
+				2DC8D5BFF7D24BD4BFC6294E /* KeychainModule$AccessControl.class */,
+				291C58E97C764AFF9127DCD4 /* KeychainModule$AuthPromptOptions.class */,
+				CA1284328BEA4B3687E3B2E9 /* KeychainModule$Errors.class */,
+				11C12C8097604E42B9E318DD /* KeychainModule$KnownCiphers.class */,
+				4494248911104CB6A5A4A802 /* KeychainModule$Maps.class */,
+				5275DB519407415EBBF01CD9 /* KeychainModule$Rules.class */,
+				60FD34CD8D5C4CFFA085D2EF /* KeychainModule.class */,
+				9EF83283E3B14B2AAB210BD6 /* KeychainModuleBuilder.class */,
+				901C1C26BEE2412CA8758342 /* KeychainPackage.class */,
+				648648E9A03246E6B0CFFE69 /* PrefsStorage$ResultSet.class */,
+				B9D966E0021D45C0821EBE3A /* PrefsStorage.class */,
+				BF44864CB746479584BD1671 /* SecurityLevel.class */,
+				337DA97A2DFF476DB5E3C149 /* CipherStorage.java */,
+				5EB8B23D9C0C4325B01DF8B0 /* CipherStorageBase.java */,
+				CC5E080AEA7A41508738F831 /* CipherStorageFacebookConceal.java */,
+				B402B6C5F1D44DA9820EB455 /* CipherStorageKeystoreAesCbc.java */,
+				E9D6E5D1B9D04980A9BCA471 /* CipherStorageKeystoreRsaEcb.java */,
+				34BEA716C8E24D8984BEF8FC /* DecryptionResultHandler.java */,
+				CD6C690724A44CEDB773203E /* DecryptionResultHandlerInteractiveBiometric.java */,
+				E3467353450E484786BF99E0 /* DecryptionResultHandlerInteractiveBiometricManualRetry.java */,
+				0A219EF5184B4A99AF2B0E3E /* DecryptionResultHandlerNonInteractive.java */,
+				8624FE436C60427EAA7CF581 /* DecryptionResultHandlerProvider.java */,
+				F5AB263CB85041DCAA6E222B /* DeviceAvailability.java */,
+				E52433600DF14FEF9E8E4779 /* CryptoFailedException.java */,
+				B8591E337054436294F69D9B /* EmptyParameterException.java */,
+				A2E93ED74A5249728F7BACFF /* KeyStoreAccessException.java */,
+				BE0EAAB9B2AC4678874DEFF7 /* KeychainModule.java */,
+				B16C560FBB95493297447B90 /* KeychainModuleBuilder.java */,
+				9BB5D2F0823B411A8B3090E9 /* KeychainPackage.java */,
+				E54EA118E3C3401B913B5535 /* PrefsStorage.java */,
+				2967232BE4E0460FBFC41EAD /* SecurityLevel.java */,
+				1E8FB10507804DD2A57B1F18 /* LICENSE */,
+				69155A4F34C64154BD4E1B1F /* RNKeychain.podspec */,
+				E22AC5F367C74FB2B9C9148E /* RNKeychainManager.h */,
+				74B7D8DF86BD404AA2DA8A6A /* RNKeychainManager.m */,
+				D2DD85AEF17544EA83BFE64F /* react-native-keychain.d.ts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +625,130 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				84A9DE0CAE104787952B7887 /* .codeclimate.yml in Resources */,
+				19BE1BB787354904B96DE80D /* .eslintignore in Resources */,
+				9D3D0E3FA58F49A9A533DF5C /* .eslintrc in Resources */,
+				A7F7091A4A5244F3A94164D5 /* .jshintrc in Resources */,
+				1C52BFB376224828B1D3D8E7 /* .travis.yml in Resources */,
+				A41B1ECD1DE24E7E9BC3E96D /* results.bin in Resources */,
+				F7E07CF7B27C443DBD4104E7 /* classes.dex in Resources */,
+				504C0B4BDD0B4DC29B768F1B /* BuildConfig.java in Resources */,
+				A249D7BE95C3402BB8D0DFDC /* AndroidManifest.xml in Resources */,
+				C386C9AE573F4B7CA7D03809 /* output-metadata.json in Resources */,
+				9A563468202544B599E086E5 /* aar-metadata.properties in Resources */,
+				551C55CD2174423D8B45ADA5 /* annotationProcessors.json in Resources */,
+				B17091C86424497D9ED164ED /* drawable_ic_fp_40px.png.flat in Resources */,
+				5C06BD750F944DB2BA05230F /* layout_fingerprint_dialog.xml.flat in Resources */,
+				193C2C2FB300439DA2EBD1E5 /* classes.jar in Resources */,
+				C3D7143B5E6D42CC816E8E6F /* R.jar in Resources */,
+				9C50035B179C463AB2FCE299 /* R.txt in Resources */,
+				3C2A5FE573C84F8E843381C4 /* compile-file-map.properties in Resources */,
+				DDF175A66517429FBF945E21 /* merger.xml in Resources */,
+				FD72936FC6F64B5BAA5DABC5 /* BuildConfig.class in Resources */,
+				097AD73543B24B61BDA0D76F /* DialogResultHandler.class in Resources */,
+				4E0B25D58E1341CB83D37159 /* FingerprintAuthConstants.class in Resources */,
+				2ED8257CF42F4152956F241F /* FingerprintAuthModule.class in Resources */,
+				5DB0FAFC902E4E2185BA9FC6 /* FingerprintAuthPackage.class in Resources */,
+				55420F5DE286450F8DD10FED /* FingerprintCipher.class in Resources */,
+				07A50947BA564F799FA1749A /* FingerprintDialog$1.class in Resources */,
+				EF1F4580FC4446A19127FC57 /* FingerprintDialog$2.class in Resources */,
+				F9C280C1AD614094BBAAE839 /* FingerprintDialog$DialogResultListener.class in Resources */,
+				92049627649C4783A28E8B04 /* FingerprintDialog.class in Resources */,
+				14A33C5CACD44876A46DDC53 /* FingerprintHandler$Callback.class in Resources */,
+				2DBF0A37BBA74B598A7AAA57 /* FingerprintHandler.class in Resources */,
+				3D711CFEEC004AACA1FD2331 /* R-def.txt in Resources */,
+				5FBFD8C02C2B46649FB18581 /* manifest-merger-blame-debug-report.txt in Resources */,
+				6C9ACB74358F4961A34125E9 /* navigation.json in Resources */,
+				12562C4C93484C4C83A0D151 /* ic_fp_40px.png in Resources */,
+				745E8984422349FCB669C3D2 /* fingerprint_dialog.xml in Resources */,
+				57B179790FE840B9A888D4E2 /* package-aware-r.txt in Resources */,
+				70FD25346AD54090AD5898BB /* manifest-merger-debug-report.txt in Resources */,
+				1C168BB2269047F9A5E05CC6 /* previous-compilation-data.bin in Resources */,
+				EDAC1FA276AF405D801F4F16 /* build.gradle in Resources */,
+				B4FE7FF13E034DFC895C3BC0 /* DialogResultHandler.java in Resources */,
+				6E4562EA86474F2AA4E12885 /* FingerprintAuthConstants.java in Resources */,
+				76BF4886AAB940EB935829C2 /* FingerprintAuthModule.java in Resources */,
+				D5018777CF2D40C1AC601B5F /* FingerprintAuthPackage.java in Resources */,
+				3FE90963D80747D382A03B1F /* FingerprintCipher.java in Resources */,
+				FE967A1A17AE4D0094ECE136 /* FingerprintDialog.java in Resources */,
+				07B9EA0E0E67479B8B012707 /* FingerprintHandler.java in Resources */,
+				E4DF14EAFC6348918B731F45 /* CHANGELOG.md in Resources */,
+				D630D442615C45C9819DD956 /* errors.js in Resources */,
+				8AB2BD443AF345EFBF1EE48D /* index.d.ts in Resources */,
+				517CB221686A4A9BB4B5F6BF /* index.js in Resources */,
+				8153DDC77C7546D096DD2641 /* package.json in Resources */,
+				4E768BE7346743C2A089CC28 /* README.md in Resources */,
+				B1906768CD8B403E8B00C71D /* TouchID.android.js in Resources */,
+				9D2D824E2C15487CB4F81A57 /* TouchID.h in Resources */,
+				0B84D0CD67204C6FA9391745 /* TouchID.ios.js in Resources */,
+				0120CC8796F243F6A6936341 /* TouchID.m in Sources */,
+				00850B3F110541609BC00EF0 /* TouchID.podspec in Resources */,
+				42C0635D9A7A409EA89A60C3 /* project.pbxproj in Resources */,
+				6DF809B7ABC945FBA9A44B59 /* contents.xcworkspacedata in Resources */,
+				6F1CBA99EC84452AAE0BBA64 /* TouchID.xccheckout in Resources */,
+				D91C0061E16447B08867A389 /* UserInterfaceState.xcuserstate in Resources */,
+				85175030BBA5443ABE7C720A /* TouchID.xcscheme in Resources */,
+				3B948658FEE3406AB4B9BF17 /* xcschememanagement.plist in Resources */,
+				BF98B9A7C0474D5B806EFCF9 /* yarn.lock in Resources */,
+				25E05EB57DE94752860CDF0E /* CipherStorage$CipherResult.class in Resources */,
+				FB76193B1AD04740909780D1 /* CipherStorage$DecryptionContext.class in Resources */,
+				949A639F0060432FB1CAC56F /* CipherStorage$DecryptionResult.class in Resources */,
+				2A4E7630FE9D4362993893AB /* CipherStorage$EncryptionResult.class in Resources */,
+				1B787FB9562E4452AF0A4E6A /* CipherStorage.class in Resources */,
+				B1D3424D9EBC4A28A3D45608 /* CipherStorageBase$DecryptBytesHandler.class in Resources */,
+				5E22C60FBD8D4B5C873D01F1 /* CipherStorageBase$Defaults.class in Resources */,
+				F6104A1B514B404A995B1ABB /* CipherStorageBase$EncryptStringHandler.class in Resources */,
+				B69CC57DBD074DE999AB1EFB /* CipherStorageBase$IV.class in Resources */,
+				E2FFFCE6F2064C62ADA6FF9A /* CipherStorageBase$SelfDestroyKey.class in Resources */,
+				81BEEC10AC394B3FBF3BE5AF /* CipherStorageBase.class in Resources */,
+				5BEF1C87A153483A9D2EC9A8 /* CipherStorageFacebookConceal.class in Resources */,
+				80E859FFE4CF46C49604A479 /* CipherStorageKeystoreAesCbc.class in Resources */,
+				3BCF0B0979E34107ACFC0D5F /* CipherStorageKeystoreRsaEcb.class in Resources */,
+				E0048828528B452BA707CF0D /* DecryptionResultHandler.class in Resources */,
+				B54CCBD7843F4F98BC9F771B /* DecryptionResultHandlerInteractiveBiometric.class in Resources */,
+				123B22529EB64BDA828A5024 /* DecryptionResultHandlerInteractiveBiometricManualRetry.class in Resources */,
+				EC3706C0D79A4FF69EAB8F96 /* DecryptionResultHandlerNonInteractive.class in Resources */,
+				CE77DE8641954F50AC8E61AE /* DecryptionResultHandlerProvider.class in Resources */,
+				8FBE4255FF9E4F93AA5E5277 /* DeviceAvailability.class in Resources */,
+				08DB9B90E6964E359C167A86 /* CryptoFailedException.class in Resources */,
+				7986D20399FD4F5EAB1D7DB3 /* EmptyParameterException.class in Resources */,
+				EE4992BD5BF54BE588634913 /* KeyStoreAccessException.class in Resources */,
+				AB6D65C3E6484408BB165B5E /* KeychainModule$AccessControl.class in Resources */,
+				8B616E4E002C4881A23E2081 /* KeychainModule$AuthPromptOptions.class in Resources */,
+				B6A04673B98742D39B28CCC8 /* KeychainModule$Errors.class in Resources */,
+				CA581C14AEAB4E42886E50C3 /* KeychainModule$KnownCiphers.class in Resources */,
+				65ACF8969E33465480F79474 /* KeychainModule$Maps.class in Resources */,
+				F2F7B1F91ACF44FF8779678F /* KeychainModule$Rules.class in Resources */,
+				0683AE3AE4CA418FB8167F3D /* KeychainModule.class in Resources */,
+				031078576D304A348C2A4966 /* KeychainModuleBuilder.class in Resources */,
+				75048794C3294A6CAC77B416 /* KeychainPackage.class in Resources */,
+				DF2D72C570974CDFAFC4CF50 /* PrefsStorage$ResultSet.class in Resources */,
+				FFB74CA5A7CD4B8782AD5D04 /* PrefsStorage.class in Resources */,
+				DE581C8870A94101B4E132E9 /* SecurityLevel.class in Resources */,
+				41DDE7B21B7D43709A66FEC8 /* CipherStorage.java in Resources */,
+				DEF8C6FEC39848EE8312CB74 /* CipherStorageBase.java in Resources */,
+				547A2FC0ADFF43A582050B10 /* CipherStorageFacebookConceal.java in Resources */,
+				C7D4FCEA664E4654B8C9C7D3 /* CipherStorageKeystoreAesCbc.java in Resources */,
+				A1279F0E7827475D8213686B /* CipherStorageKeystoreRsaEcb.java in Resources */,
+				AB772A105BE3460A881A3258 /* DecryptionResultHandler.java in Resources */,
+				AAF2D866F6BC4171A92A994C /* DecryptionResultHandlerInteractiveBiometric.java in Resources */,
+				3F013D3E78454CEF92B2C450 /* DecryptionResultHandlerInteractiveBiometricManualRetry.java in Resources */,
+				EA4179FFD1254D27A84135D7 /* DecryptionResultHandlerNonInteractive.java in Resources */,
+				70DCF04CDBBF4F4F85811612 /* DecryptionResultHandlerProvider.java in Resources */,
+				094D8373D3B74561894462E7 /* DeviceAvailability.java in Resources */,
+				C1170AB12C8C4BBBB9727C4E /* CryptoFailedException.java in Resources */,
+				9799A70BB3D2463D88544C8B /* EmptyParameterException.java in Resources */,
+				5813A6E020AD4226979EA539 /* KeyStoreAccessException.java in Resources */,
+				CF2A9A14478D4819A4A83CCE /* KeychainModule.java in Resources */,
+				7D925BD47BB04B9FBB112789 /* KeychainModuleBuilder.java in Resources */,
+				E0F88D35728D4231B4703BCB /* KeychainPackage.java in Resources */,
+				66CAE11772014A2BA7D01E18 /* PrefsStorage.java in Resources */,
+				7B4F35BF93EC40DFA4187860 /* SecurityLevel.java in Resources */,
+				C73E166170BB4227BB97D1CB /* LICENSE in Resources */,
+				7E0DFFCFFCE0434AAD28606E /* RNKeychain.podspec in Resources */,
+				8380A674130346728BDC7DD4 /* RNKeychainManager.h in Resources */,
+				943FC107F5F341D9B8D513D5 /* RNKeychainManager.m in Sources */,
+				CA9A9256FF8544F195430A07 /* react-native-keychain.d.ts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

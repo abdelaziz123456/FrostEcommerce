@@ -3,6 +3,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import {Home, Login, SignUp} from './index';
 import {FrostContext} from '../store/frost-context';
+import {CustomButton} from '../SharedComponents';
 
 function UnAuthNavigator() {
   const UnAuthStack = createNativeStackNavigator();
@@ -15,10 +16,24 @@ function UnAuthNavigator() {
 }
 
 function AuthNavigator() {
+  const {setISAuth} = useContext(FrostContext);
   const AuthStack = createNativeStackNavigator();
+
   return (
     <AuthStack.Navigator>
-      <AuthStack.Screen name="home" component={Home} />
+      <AuthStack.Screen
+        name="home"
+        component={Home}
+        options={({navigation}) => ({
+          title: 'Home',
+          headerRight: () => (
+            <CustomButton
+              onPress={() => setISAuth(false)}
+              buttonTitle="Logout"
+            />
+          ),
+        })}
+      />
     </AuthStack.Navigator>
   );
 }
