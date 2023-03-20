@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import {Home, Login, SignUp} from './index';
+import {FrostContext} from '../store/frost-context';
 
 function UnAuthNavigator() {
   const UnAuthStack = createNativeStackNavigator();
@@ -23,6 +24,6 @@ function AuthNavigator() {
 }
 
 export default function AppContent() {
-  const [auth, setAuth] = useState(false);
-  return !auth ? <UnAuthNavigator /> : <AuthNavigator />;
+  const {isAuth} = useContext(FrostContext);
+  return !isAuth ? <UnAuthNavigator /> : <AuthNavigator />;
 }

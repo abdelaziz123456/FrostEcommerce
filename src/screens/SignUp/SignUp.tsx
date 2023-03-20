@@ -1,11 +1,14 @@
 import {View, Text} from 'react-native';
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import {styles} from './SignUp.styles';
 import {CustomButton, CustomModal, InputField} from '../../SharedComponents';
 import {useNavigation, StackActions} from '@react-navigation/native';
-import {checkValidation} from './SignUpUtils';
+import {signUpHandler} from './SignUpUtils';
+import {signUp} from '../../Utiles/https';
+import {FrostContext} from '../../store/frost-context';
 
 export default function SignUp() {
+  const {setISAuth} = useContext(FrostContext);
   const [signUpData, setsignUpData] = useState({
     email: '',
     password: '',
@@ -18,12 +21,6 @@ export default function SignUp() {
   const navigation = useNavigation();
   function onChangehandler(key: string, value: string) {
     setsignUpData({...signUpData, [key]: value});
-  }
-
-  function signUpHandler() {
-    if (checkValidation(signUpData, setModalContent, setShowModal)) {
-      console.log('done');
-    }
   }
 
   return (
@@ -61,7 +58,15 @@ export default function SignUp() {
       <CustomButton
         style={{marginTop: 40}}
         buttonTitle="Sign Up"
-        onPress={signUpHandler}
+        onPress={() =>
+          signUpHandler(
+            signUpData,
+            setModalContent,
+            setShowModal,
+            signUp,
+            setISAuth,
+          )
+        }
         buttonStyle={'primary-outline'}
       />
       <View style={styles.screenLinkContainer}>
