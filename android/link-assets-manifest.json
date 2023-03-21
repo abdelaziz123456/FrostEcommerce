@@ -22,11 +22,11 @@
       "sha1": "bf5549797aed578a225ab780c001b824449c3eba"
     },
     {
-      "path": "node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/results.bin",
+      "path": "node_modules/react-native-touch-id/android/build/.transforms/77e9ea06900bf947a017b8cd18f2a2d9/results.bin",
       "sha1": "12d521b6290f161ced08bd889933378db1f1ca87"
     },
     {
-      "path": "node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/transformed/classes/classes.dex",
+      "path": "node_modules/react-native-touch-id/android/build/.transforms/77e9ea06900bf947a017b8cd18f2a2d9/transformed/classes/classes.dex",
       "sha1": "c01c98ffb2d7f2f461e3e4cbf6bccf5810a18d57"
     },
     {
@@ -51,11 +51,11 @@
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/drawable_ic_fp_40px.png.flat",
-      "sha1": "61c0bb9093a1ab83632a00f2d213e0eb026083cd"
+      "sha1": "8c9c2a452b54b4eaad31081c6c77e7a135444e6c"
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/layout_fingerprint_dialog.xml.flat",
-      "sha1": "b4b6017e1b1d0f225dde701a653234773e368d41"
+      "sha1": "d88ecafada5cea142322441abf81bf8a6dd2106b"
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/compile_library_classes_jar/debug/classes.jar",
@@ -71,11 +71,11 @@
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties",
-      "sha1": "9938aaafca336f7a9982d605ec02fda86c028a0c"
+      "sha1": "12a21fd2d52586fe0e218344d0e56d1626348a51"
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml",
-      "sha1": "47e4f81c613e919a47b65de8b838e6c4b383d10b"
+      "sha1": "3ae010b5cf4008c8ef8fd8b33aa32051e895c129"
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/BuildConfig.class",
@@ -131,7 +131,7 @@
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt",
-      "sha1": "fb688150040be7a13cd3d8dc8c64b3f7f460fe45"
+      "sha1": "b008e694b7539c3066ce5763af9e4af4bdedaf50"
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/intermediates/navigation_json/debug/navigation.json",
@@ -151,7 +151,7 @@
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/outputs/logs/manifest-merger-debug-report.txt",
-      "sha1": "7aaba9734f09f984c2e9563d8b7ae7d6d1d3c0d7"
+      "sha1": "095f5fb911868bc0164522c64cf3ba4ab8ce6631"
     },
     {
       "path": "node_modules/react-native-touch-id/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin",
@@ -379,7 +379,7 @@
     },
     {
       "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule.class",
-      "sha1": "edbf1a830b891c646537b0ee11d64b816ba6f323"
+      "sha1": "93847dcdf23b62d942dc08eae892ef4e57ad2a53"
     },
     {
       "path": "node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModuleBuilder.class",
@@ -496,6 +496,78 @@
     {
       "path": "node_modules/react-native-keychain/typings/react-native-keychain.d.ts",
       "sha1": "ad73d62a2add820370786e96dab84a05b423b9e5"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Black.ttf",
+      "sha1": "1095f6e6cbac3f95d31c9ceddd1b072d443edebe"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-BlackItalic.ttf",
+      "sha1": "93faad2ae6cb856b1ee9ab0810c6393b2479b68c"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Bold.ttf",
+      "sha1": "26b7d3f506847028bfa8feafdd6d44a13ba69b74"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-BoldItalic.ttf",
+      "sha1": "4ca3843bd5e2ab84753668d63c1fc17ede0829a6"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-ExtraBold.ttf",
+      "sha1": "ec86f1bd571bcbb5c667eb24954a59072a1a4394"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-ExtraBoldItalic.ttf",
+      "sha1": "d1bb015bf4e862bdbe76caf27bb727842b9cf8cd"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-ExtraLight.ttf",
+      "sha1": "e8184610a4c946eb2cc255ea30d94cb6869de833"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-ExtraLightItalic.ttf",
+      "sha1": "60e45d7413a4a0f3b671d00faef5632082d206b5"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Italic.ttf",
+      "sha1": "ce3e6c704127d5447259f4fee6972ffe15fd5897"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Light.ttf",
+      "sha1": "0af6565379e8bd955c95f8841493c441ddc3ce69"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-LightItalic.ttf",
+      "sha1": "d580e4cba66359e7b3aaf4141c11dfb98f22b68d"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Medium.ttf",
+      "sha1": "858f262ce9dc998a93c015f0dde446b034651ca4"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-MediumItalic.ttf",
+      "sha1": "f0395e2985934ca5b1e37d3537e93f5c5405c06a"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Regular.ttf",
+      "sha1": "dc30d838133122d5725f0adbb86164fadc126a24"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-SemiBold.ttf",
+      "sha1": "d737f97e8971f2cdafd05a69dd2420ebb290d897"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-SemiBoldItalic.ttf",
+      "sha1": "c749aaac12d06ee2560b43024e3fba015c1678a7"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Thin.ttf",
+      "sha1": "59a8a21782c253bc7422ba9cba769a1b7191d16c"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-ThinItalic.ttf",
+      "sha1": "d065f9951f82b01025c6d896a61177d233b73f4d"
     }
   ]
 }

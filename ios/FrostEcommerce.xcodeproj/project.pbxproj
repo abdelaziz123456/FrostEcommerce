@@ -19,20 +19,14 @@
 		9D3D0E3FA58F49A9A533DF5C /* .eslintrc in Resources */ = {isa = PBXBuildFile; fileRef = 9D59875097E54366A9B81ACB /* .eslintrc */; };
 		A7F7091A4A5244F3A94164D5 /* .jshintrc in Resources */ = {isa = PBXBuildFile; fileRef = 0C954B9E7A3645FCB9A24DD3 /* .jshintrc */; };
 		1C52BFB376224828B1D3D8E7 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 84AAFF01D14A429A85EE2693 /* .travis.yml */; };
-		A41B1ECD1DE24E7E9BC3E96D /* results.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4EE11E721AA64D0C82CDCE9C /* results.bin */; };
-		F7E07CF7B27C443DBD4104E7 /* classes.dex in Resources */ = {isa = PBXBuildFile; fileRef = CE3D6F053B9E4E3494CF7EC2 /* classes.dex */; };
 		504C0B4BDD0B4DC29B768F1B /* BuildConfig.java in Resources */ = {isa = PBXBuildFile; fileRef = EC02345D9505462AA25D8878 /* BuildConfig.java */; };
 		A249D7BE95C3402BB8D0DFDC /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = E11CFC3EE21A46C8A698DC71 /* AndroidManifest.xml */; };
 		C386C9AE573F4B7CA7D03809 /* output-metadata.json in Resources */ = {isa = PBXBuildFile; fileRef = B0F4F5C78D39443795BDFCD1 /* output-metadata.json */; };
 		9A563468202544B599E086E5 /* aar-metadata.properties in Resources */ = {isa = PBXBuildFile; fileRef = 2EE04EEE495C41B1A5E3A8F0 /* aar-metadata.properties */; };
 		551C55CD2174423D8B45ADA5 /* annotationProcessors.json in Resources */ = {isa = PBXBuildFile; fileRef = 0462DB7BD21C4986BB2EE7A2 /* annotationProcessors.json */; };
-		B17091C86424497D9ED164ED /* drawable_ic_fp_40px.png.flat in Resources */ = {isa = PBXBuildFile; fileRef = 6A9E0FE30920474B8C57D548 /* drawable_ic_fp_40px.png.flat */; };
-		5C06BD750F944DB2BA05230F /* layout_fingerprint_dialog.xml.flat in Resources */ = {isa = PBXBuildFile; fileRef = 8C536F60241B49B6970E5497 /* layout_fingerprint_dialog.xml.flat */; };
 		193C2C2FB300439DA2EBD1E5 /* classes.jar in Resources */ = {isa = PBXBuildFile; fileRef = 9A425B653F164CED8259BAB3 /* classes.jar */; };
 		C3D7143B5E6D42CC816E8E6F /* R.jar in Resources */ = {isa = PBXBuildFile; fileRef = 33EE82932A8B48CCB1D6A3D7 /* R.jar */; };
 		9C50035B179C463AB2FCE299 /* R.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFC53E8CEB434CBB9A92EFFA /* R.txt */; };
-		3C2A5FE573C84F8E843381C4 /* compile-file-map.properties in Resources */ = {isa = PBXBuildFile; fileRef = 9723C0BD29304F7F8D8B060D /* compile-file-map.properties */; };
-		DDF175A66517429FBF945E21 /* merger.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5205517E46B4915CE252 /* merger.xml */; };
 		FD72936FC6F64B5BAA5DABC5 /* BuildConfig.class in Resources */ = {isa = PBXBuildFile; fileRef = DBE41F33755C42FC80A33FE0 /* BuildConfig.class */; };
 		097AD73543B24B61BDA0D76F /* DialogResultHandler.class in Resources */ = {isa = PBXBuildFile; fileRef = 33C437100F76465E8EAF9C79 /* DialogResultHandler.class */; };
 		4E0B25D58E1341CB83D37159 /* FingerprintAuthConstants.class in Resources */ = {isa = PBXBuildFile; fileRef = 3D4F2ED23B5B448E939C5A3B /* FingerprintAuthConstants.class */; };
@@ -46,12 +40,10 @@
 		14A33C5CACD44876A46DDC53 /* FingerprintHandler$Callback.class in Resources */ = {isa = PBXBuildFile; fileRef = 73D6F9AD51474782A7046951 /* FingerprintHandler$Callback.class */; };
 		2DBF0A37BBA74B598A7AAA57 /* FingerprintHandler.class in Resources */ = {isa = PBXBuildFile; fileRef = 3247C17739414F45B9033622 /* FingerprintHandler.class */; };
 		3D711CFEEC004AACA1FD2331 /* R-def.txt in Resources */ = {isa = PBXBuildFile; fileRef = B2D6543799604ACC8FD97FF6 /* R-def.txt */; };
-		5FBFD8C02C2B46649FB18581 /* manifest-merger-blame-debug-report.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0EBA7E412B9340848177CC17 /* manifest-merger-blame-debug-report.txt */; };
 		6C9ACB74358F4961A34125E9 /* navigation.json in Resources */ = {isa = PBXBuildFile; fileRef = 476C27AADDA24F508A20871C /* navigation.json */; };
 		12562C4C93484C4C83A0D151 /* ic_fp_40px.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D95724A39894468AC7E62C5 /* ic_fp_40px.png */; };
 		745E8984422349FCB669C3D2 /* fingerprint_dialog.xml in Resources */ = {isa = PBXBuildFile; fileRef = E58C00B449E74C33875B0785 /* fingerprint_dialog.xml */; };
 		57B179790FE840B9A888D4E2 /* package-aware-r.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06BBE44E22474A94BB791901 /* package-aware-r.txt */; };
-		70FD25346AD54090AD5898BB /* manifest-merger-debug-report.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA77F0DF1AE8458888D840F0 /* manifest-merger-debug-report.txt */; };
 		1C168BB2269047F9A5E05CC6 /* previous-compilation-data.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8A8D1796BE7A4402BBD7A0A0 /* previous-compilation-data.bin */; };
 		EDAC1FA276AF405D801F4F16 /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = E8F1906CBD0B4946BC8F18EB /* build.gradle */; };
 		B4FE7FF13E034DFC895C3BC0 /* DialogResultHandler.java in Resources */ = {isa = PBXBuildFile; fileRef = 64CF1D3723ED4346A71CCC7E /* DialogResultHandler.java */; };
@@ -108,7 +100,6 @@
 		CA581C14AEAB4E42886E50C3 /* KeychainModule$KnownCiphers.class in Resources */ = {isa = PBXBuildFile; fileRef = 11C12C8097604E42B9E318DD /* KeychainModule$KnownCiphers.class */; };
 		65ACF8969E33465480F79474 /* KeychainModule$Maps.class in Resources */ = {isa = PBXBuildFile; fileRef = 4494248911104CB6A5A4A802 /* KeychainModule$Maps.class */; };
 		F2F7B1F91ACF44FF8779678F /* KeychainModule$Rules.class in Resources */ = {isa = PBXBuildFile; fileRef = 5275DB519407415EBBF01CD9 /* KeychainModule$Rules.class */; };
-		0683AE3AE4CA418FB8167F3D /* KeychainModule.class in Resources */ = {isa = PBXBuildFile; fileRef = 60FD34CD8D5C4CFFA085D2EF /* KeychainModule.class */; };
 		031078576D304A348C2A4966 /* KeychainModuleBuilder.class in Resources */ = {isa = PBXBuildFile; fileRef = 9EF83283E3B14B2AAB210BD6 /* KeychainModuleBuilder.class */; };
 		75048794C3294A6CAC77B416 /* KeychainPackage.class in Resources */ = {isa = PBXBuildFile; fileRef = 901C1C26BEE2412CA8758342 /* KeychainPackage.class */; };
 		DF2D72C570974CDFAFC4CF50 /* PrefsStorage$ResultSet.class in Resources */ = {isa = PBXBuildFile; fileRef = 648648E9A03246E6B0CFFE69 /* PrefsStorage$ResultSet.class */; };
@@ -138,6 +129,33 @@
 		8380A674130346728BDC7DD4 /* RNKeychainManager.h in Resources */ = {isa = PBXBuildFile; fileRef = E22AC5F367C74FB2B9C9148E /* RNKeychainManager.h */; };
 		943FC107F5F341D9B8D513D5 /* RNKeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B7D8DF86BD404AA2DA8A6A /* RNKeychainManager.m */; };
 		CA9A9256FF8544F195430A07 /* react-native-keychain.d.ts in Resources */ = {isa = PBXBuildFile; fileRef = D2DD85AEF17544EA83BFE64F /* react-native-keychain.d.ts */; };
+		05BFFD31877C4290A54E7C9E /* SofiaSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62E4D443BEB74C9CBDF26F28 /* SofiaSans-Black.ttf */; };
+		9C4D5EBCB0624639A5492B6B /* SofiaSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9B77D19FEC0496F8707D479 /* SofiaSans-BlackItalic.ttf */; };
+		93C14AEFFE1E476980E0DEF2 /* SofiaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD4DA0D435D3441DB2EBAA71 /* SofiaSans-Bold.ttf */; };
+		D910CE6B7C0D4AA088FAAA53 /* SofiaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C97E1C1F1564690A13305F0 /* SofiaSans-BoldItalic.ttf */; };
+		F589D600343348DDBBBDA67A /* SofiaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 026BD5EDB4D446F28187E286 /* SofiaSans-ExtraBold.ttf */; };
+		11A19FBB9F2E4308A15642B7 /* SofiaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 096F607E30BE4F44984DDF8B /* SofiaSans-ExtraBoldItalic.ttf */; };
+		B2F862DBDB924D7F92E4A29F /* SofiaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3471BDA9D3A44D5D8FFABE75 /* SofiaSans-ExtraLight.ttf */; };
+		61DFC632AB6C469DBECE6A20 /* SofiaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82AAF15E732B43928AA1E583 /* SofiaSans-ExtraLightItalic.ttf */; };
+		5E889529D38B4B7581A84D17 /* SofiaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47E616788E6949B887E76F2D /* SofiaSans-Italic.ttf */; };
+		D5E8A13B9ACB4169AF653D32 /* SofiaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3D473D85A6549AEB8136371 /* SofiaSans-Light.ttf */; };
+		2272AB0A2B734499AAF02A14 /* SofiaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD053BD72FD44FD7972CC728 /* SofiaSans-LightItalic.ttf */; };
+		242B11F5DA8D490582D333CF /* SofiaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5187B07808F4A6BB8840FCC /* SofiaSans-Medium.ttf */; };
+		406215C6C2E54A5BAC87AA21 /* SofiaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5149728BEFCD4E21A5B28CB9 /* SofiaSans-MediumItalic.ttf */; };
+		B2301036F7734A2F93D5CFE6 /* SofiaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6301B23DE02F44E9AC2E236E /* SofiaSans-Regular.ttf */; };
+		20690D9F4AF34CF08DBE7AB9 /* SofiaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5144C0892F746AAA9D92EEE /* SofiaSans-SemiBold.ttf */; };
+		28C99D09DB7B4311BCCCE2FE /* SofiaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCA556579ED34C80B772B2C0 /* SofiaSans-SemiBoldItalic.ttf */; };
+		9B07E67EC8394A68A5E66EB5 /* SofiaSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D460978C3EE46D48A49F69A /* SofiaSans-Thin.ttf */; };
+		B58AA5E801334DE7840CC59C /* SofiaSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44AECE02CA0E4773B63D9436 /* SofiaSans-ThinItalic.ttf */; };
+		9BD4FE8197C045EE842830DC /* results.bin in Resources */ = {isa = PBXBuildFile; fileRef = 8568812B04A745E8A85C555E /* results.bin */; };
+		82D1350C89084742A43D804C /* classes.dex in Resources */ = {isa = PBXBuildFile; fileRef = BF75DF68BFC94ABF82381E7A /* classes.dex */; };
+		6B0792D8F6914477A48A64A8 /* drawable_ic_fp_40px.png.flat in Resources */ = {isa = PBXBuildFile; fileRef = 7FED211BE62648F488BF5CBE /* drawable_ic_fp_40px.png.flat */; };
+		922EDBEDA03A4D77A8B5283C /* layout_fingerprint_dialog.xml.flat in Resources */ = {isa = PBXBuildFile; fileRef = CEFDED4EA7C94C58A9021BBA /* layout_fingerprint_dialog.xml.flat */; };
+		4BE959D08D1E4730996510AB /* compile-file-map.properties in Resources */ = {isa = PBXBuildFile; fileRef = F3E34AEBFEAA4F2CA31D1F6E /* compile-file-map.properties */; };
+		C5AE830E27764A7B8211F996 /* merger.xml in Resources */ = {isa = PBXBuildFile; fileRef = C5E88CD9ECDD441EA9F07F43 /* merger.xml */; };
+		F872DDBBCB2843018F92FB6A /* manifest-merger-blame-debug-report.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6C0F886494E63BBFE4FFB /* manifest-merger-blame-debug-report.txt */; };
+		9952377B0CB7477580AD50AB /* manifest-merger-debug-report.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27C29B5CA07448ED8A97CD2C /* manifest-merger-debug-report.txt */; };
+		883BC502B71A4F08A11604C4 /* KeychainModule.class in Resources */ = {isa = PBXBuildFile; fileRef = 21D1CE040A144CE3871786DC /* KeychainModule.class */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,20 +191,14 @@
 		9D59875097E54366A9B81ACB /* .eslintrc */ = {isa = PBXFileReference; name = ".eslintrc"; path = "../node_modules/react-native-touch-id/.eslintrc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0C954B9E7A3645FCB9A24DD3 /* .jshintrc */ = {isa = PBXFileReference; name = ".jshintrc"; path = "../node_modules/react-native-touch-id/.jshintrc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		84AAFF01D14A429A85EE2693 /* .travis.yml */ = {isa = PBXFileReference; name = ".travis.yml"; path = "../node_modules/react-native-touch-id/.travis.yml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4EE11E721AA64D0C82CDCE9C /* results.bin */ = {isa = PBXFileReference; name = "results.bin"; path = "../node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/results.bin"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CE3D6F053B9E4E3494CF7EC2 /* classes.dex */ = {isa = PBXFileReference; name = "classes.dex"; path = "../node_modules/react-native-touch-id/android/build/.transforms/da955869a9d1edb7f480082a2ad6cc36/transformed/classes/classes.dex"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		EC02345D9505462AA25D8878 /* BuildConfig.java */ = {isa = PBXFileReference; name = "BuildConfig.java"; path = "../node_modules/react-native-touch-id/android/build/generated/source/buildConfig/debug/com/rnfingerprint/BuildConfig.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E11CFC3EE21A46C8A698DC71 /* AndroidManifest.xml */ = {isa = PBXFileReference; name = "AndroidManifest.xml"; path = "../node_modules/react-native-touch-id/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B0F4F5C78D39443795BDFCD1 /* output-metadata.json */ = {isa = PBXFileReference; name = "output-metadata.json"; path = "../node_modules/react-native-touch-id/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2EE04EEE495C41B1A5E3A8F0 /* aar-metadata.properties */ = {isa = PBXFileReference; name = "aar-metadata.properties"; path = "../node_modules/react-native-touch-id/android/build/intermediates/aar_metadata/debug/aar-metadata.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0462DB7BD21C4986BB2EE7A2 /* annotationProcessors.json */ = {isa = PBXFileReference; name = "annotationProcessors.json"; path = "../node_modules/react-native-touch-id/android/build/intermediates/annotation_processor_list/debug/annotationProcessors.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6A9E0FE30920474B8C57D548 /* drawable_ic_fp_40px.png.flat */ = {isa = PBXFileReference; name = "drawable_ic_fp_40px.png.flat"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/drawable_ic_fp_40px.png.flat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8C536F60241B49B6970E5497 /* layout_fingerprint_dialog.xml.flat */ = {isa = PBXFileReference; name = "layout_fingerprint_dialog.xml.flat"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/layout_fingerprint_dialog.xml.flat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9A425B653F164CED8259BAB3 /* classes.jar */ = {isa = PBXFileReference; name = "classes.jar"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compile_library_classes_jar/debug/classes.jar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		33EE82932A8B48CCB1D6A3D7 /* R.jar */ = {isa = PBXFileReference; name = "R.jar"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compile_r_class_jar/debug/R.jar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		FFC53E8CEB434CBB9A92EFFA /* R.txt */ = {isa = PBXFileReference; name = "R.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compile_symbol_list/debug/R.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9723C0BD29304F7F8D8B060D /* compile-file-map.properties */ = {isa = PBXFileReference; name = "compile-file-map.properties"; path = "../node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2DBA5205517E46B4915CE252 /* merger.xml */ = {isa = PBXFileReference; name = "merger.xml"; path = "../node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		DBE41F33755C42FC80A33FE0 /* BuildConfig.class */ = {isa = PBXFileReference; name = "BuildConfig.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/BuildConfig.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		33C437100F76465E8EAF9C79 /* DialogResultHandler.class */ = {isa = PBXFileReference; name = "DialogResultHandler.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/DialogResultHandler.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		3D4F2ED23B5B448E939C5A3B /* FingerprintAuthConstants.class */ = {isa = PBXFileReference; name = "FingerprintAuthConstants.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintAuthConstants.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -200,12 +212,10 @@
 		73D6F9AD51474782A7046951 /* FingerprintHandler$Callback.class */ = {isa = PBXFileReference; name = "FingerprintHandler$Callback.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintHandler$Callback.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		3247C17739414F45B9033622 /* FingerprintHandler.class */ = {isa = PBXFileReference; name = "FingerprintHandler.class"; path = "../node_modules/react-native-touch-id/android/build/intermediates/javac/debug/classes/com/rnfingerprint/FingerprintHandler.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B2D6543799604ACC8FD97FF6 /* R-def.txt */ = {isa = PBXFileReference; name = "R-def.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/local_only_symbol_list/debug/R-def.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0EBA7E412B9340848177CC17 /* manifest-merger-blame-debug-report.txt */ = {isa = PBXFileReference; name = "manifest-merger-blame-debug-report.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		476C27AADDA24F508A20871C /* navigation.json */ = {isa = PBXFileReference; name = "navigation.json"; path = "../node_modules/react-native-touch-id/android/build/intermediates/navigation_json/debug/navigation.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6D95724A39894468AC7E62C5 /* ic_fp_40px.png */ = {isa = PBXFileReference; name = "ic_fp_40px.png"; path = "../node_modules/react-native-touch-id/android/build/intermediates/packaged_res/debug/drawable/ic_fp_40px.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E58C00B449E74C33875B0785 /* fingerprint_dialog.xml */ = {isa = PBXFileReference; name = "fingerprint_dialog.xml"; path = "../node_modules/react-native-touch-id/android/build/intermediates/packaged_res/debug/layout/fingerprint_dialog.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		06BBE44E22474A94BB791901 /* package-aware-r.txt */ = {isa = PBXFileReference; name = "package-aware-r.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CA77F0DF1AE8458888D840F0 /* manifest-merger-debug-report.txt */ = {isa = PBXFileReference; name = "manifest-merger-debug-report.txt"; path = "../node_modules/react-native-touch-id/android/build/outputs/logs/manifest-merger-debug-report.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8A8D1796BE7A4402BBD7A0A0 /* previous-compilation-data.bin */ = {isa = PBXFileReference; name = "previous-compilation-data.bin"; path = "../node_modules/react-native-touch-id/android/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E8F1906CBD0B4946BC8F18EB /* build.gradle */ = {isa = PBXFileReference; name = "build.gradle"; path = "../node_modules/react-native-touch-id/android/build.gradle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		64CF1D3723ED4346A71CCC7E /* DialogResultHandler.java */ = {isa = PBXFileReference; name = "DialogResultHandler.java"; path = "../node_modules/react-native-touch-id/android/src/main/java/com/rnfingerprint/DialogResultHandler.java"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -262,7 +272,6 @@
 		11C12C8097604E42B9E318DD /* KeychainModule$KnownCiphers.class */ = {isa = PBXFileReference; name = "KeychainModule$KnownCiphers.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$KnownCiphers.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4494248911104CB6A5A4A802 /* KeychainModule$Maps.class */ = {isa = PBXFileReference; name = "KeychainModule$Maps.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Maps.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		5275DB519407415EBBF01CD9 /* KeychainModule$Rules.class */ = {isa = PBXFileReference; name = "KeychainModule$Rules.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule$Rules.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		60FD34CD8D5C4CFFA085D2EF /* KeychainModule.class */ = {isa = PBXFileReference; name = "KeychainModule.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		9EF83283E3B14B2AAB210BD6 /* KeychainModuleBuilder.class */ = {isa = PBXFileReference; name = "KeychainModuleBuilder.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModuleBuilder.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		901C1C26BEE2412CA8758342 /* KeychainPackage.class */ = {isa = PBXFileReference; name = "KeychainPackage.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainPackage.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		648648E9A03246E6B0CFFE69 /* PrefsStorage$ResultSet.class */ = {isa = PBXFileReference; name = "PrefsStorage$ResultSet.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/PrefsStorage$ResultSet.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -292,6 +301,33 @@
 		E22AC5F367C74FB2B9C9148E /* RNKeychainManager.h */ = {isa = PBXFileReference; name = "RNKeychainManager.h"; path = "../node_modules/react-native-keychain/RNKeychainManager/RNKeychainManager.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		74B7D8DF86BD404AA2DA8A6A /* RNKeychainManager.m */ = {isa = PBXFileReference; name = "RNKeychainManager.m"; path = "../node_modules/react-native-keychain/RNKeychainManager/RNKeychainManager.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		D2DD85AEF17544EA83BFE64F /* react-native-keychain.d.ts */ = {isa = PBXFileReference; name = "react-native-keychain.d.ts"; path = "../node_modules/react-native-keychain/typings/react-native-keychain.d.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		62E4D443BEB74C9CBDF26F28 /* SofiaSans-Black.ttf */ = {isa = PBXFileReference; name = "SofiaSans-Black.ttf"; path = "../assets/fonts/SofiaSans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9B77D19FEC0496F8707D479 /* SofiaSans-BlackItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-BlackItalic.ttf"; path = "../assets/fonts/SofiaSans-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DD4DA0D435D3441DB2EBAA71 /* SofiaSans-Bold.ttf */ = {isa = PBXFileReference; name = "SofiaSans-Bold.ttf"; path = "../assets/fonts/SofiaSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C97E1C1F1564690A13305F0 /* SofiaSans-BoldItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-BoldItalic.ttf"; path = "../assets/fonts/SofiaSans-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		026BD5EDB4D446F28187E286 /* SofiaSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "SofiaSans-ExtraBold.ttf"; path = "../assets/fonts/SofiaSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		096F607E30BE4F44984DDF8B /* SofiaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/SofiaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3471BDA9D3A44D5D8FFABE75 /* SofiaSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "SofiaSans-ExtraLight.ttf"; path = "../assets/fonts/SofiaSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82AAF15E732B43928AA1E583 /* SofiaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-ExtraLightItalic.ttf"; path = "../assets/fonts/SofiaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47E616788E6949B887E76F2D /* SofiaSans-Italic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-Italic.ttf"; path = "../assets/fonts/SofiaSans-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3D473D85A6549AEB8136371 /* SofiaSans-Light.ttf */ = {isa = PBXFileReference; name = "SofiaSans-Light.ttf"; path = "../assets/fonts/SofiaSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD053BD72FD44FD7972CC728 /* SofiaSans-LightItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-LightItalic.ttf"; path = "../assets/fonts/SofiaSans-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5187B07808F4A6BB8840FCC /* SofiaSans-Medium.ttf */ = {isa = PBXFileReference; name = "SofiaSans-Medium.ttf"; path = "../assets/fonts/SofiaSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5149728BEFCD4E21A5B28CB9 /* SofiaSans-MediumItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-MediumItalic.ttf"; path = "../assets/fonts/SofiaSans-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6301B23DE02F44E9AC2E236E /* SofiaSans-Regular.ttf */ = {isa = PBXFileReference; name = "SofiaSans-Regular.ttf"; path = "../assets/fonts/SofiaSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5144C0892F746AAA9D92EEE /* SofiaSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "SofiaSans-SemiBold.ttf"; path = "../assets/fonts/SofiaSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DCA556579ED34C80B772B2C0 /* SofiaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-SemiBoldItalic.ttf"; path = "../assets/fonts/SofiaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D460978C3EE46D48A49F69A /* SofiaSans-Thin.ttf */ = {isa = PBXFileReference; name = "SofiaSans-Thin.ttf"; path = "../assets/fonts/SofiaSans-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		44AECE02CA0E4773B63D9436 /* SofiaSans-ThinItalic.ttf */ = {isa = PBXFileReference; name = "SofiaSans-ThinItalic.ttf"; path = "../assets/fonts/SofiaSans-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8568812B04A745E8A85C555E /* results.bin */ = {isa = PBXFileReference; name = "results.bin"; path = "../node_modules/react-native-touch-id/android/build/.transforms/77e9ea06900bf947a017b8cd18f2a2d9/results.bin"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF75DF68BFC94ABF82381E7A /* classes.dex */ = {isa = PBXFileReference; name = "classes.dex"; path = "../node_modules/react-native-touch-id/android/build/.transforms/77e9ea06900bf947a017b8cd18f2a2d9/transformed/classes/classes.dex"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7FED211BE62648F488BF5CBE /* drawable_ic_fp_40px.png.flat */ = {isa = PBXFileReference; name = "drawable_ic_fp_40px.png.flat"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/drawable_ic_fp_40px.png.flat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CEFDED4EA7C94C58A9021BBA /* layout_fingerprint_dialog.xml.flat */ = {isa = PBXFileReference; name = "layout_fingerprint_dialog.xml.flat"; path = "../node_modules/react-native-touch-id/android/build/intermediates/compiled_local_resources/debug/out/layout_fingerprint_dialog.xml.flat"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3E34AEBFEAA4F2CA31D1F6E /* compile-file-map.properties */ = {isa = PBXFileReference; name = "compile-file-map.properties"; path = "../node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5E88CD9ECDD441EA9F07F43 /* merger.xml */ = {isa = PBXFileReference; name = "merger.xml"; path = "../node_modules/react-native-touch-id/android/build/intermediates/incremental/debug/packageDebugResources/merger.xml"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DF6C0F886494E63BBFE4FFB /* manifest-merger-blame-debug-report.txt */ = {isa = PBXFileReference; name = "manifest-merger-blame-debug-report.txt"; path = "../node_modules/react-native-touch-id/android/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27C29B5CA07448ED8A97CD2C /* manifest-merger-debug-report.txt */ = {isa = PBXFileReference; name = "manifest-merger-debug-report.txt"; path = "../node_modules/react-native-touch-id/android/build/outputs/logs/manifest-merger-debug-report.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		21D1CE040A144CE3871786DC /* KeychainModule.class */ = {isa = PBXFileReference; name = "KeychainModule.class"; path = "../node_modules/react-native-keychain/android/build/intermediates/javac/debug/classes/com/oblador/keychain/KeychainModule.class"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,20 +441,14 @@
 				9D59875097E54366A9B81ACB /* .eslintrc */,
 				0C954B9E7A3645FCB9A24DD3 /* .jshintrc */,
 				84AAFF01D14A429A85EE2693 /* .travis.yml */,
-				4EE11E721AA64D0C82CDCE9C /* results.bin */,
-				CE3D6F053B9E4E3494CF7EC2 /* classes.dex */,
 				EC02345D9505462AA25D8878 /* BuildConfig.java */,
 				E11CFC3EE21A46C8A698DC71 /* AndroidManifest.xml */,
 				B0F4F5C78D39443795BDFCD1 /* output-metadata.json */,
 				2EE04EEE495C41B1A5E3A8F0 /* aar-metadata.properties */,
 				0462DB7BD21C4986BB2EE7A2 /* annotationProcessors.json */,
-				6A9E0FE30920474B8C57D548 /* drawable_ic_fp_40px.png.flat */,
-				8C536F60241B49B6970E5497 /* layout_fingerprint_dialog.xml.flat */,
 				9A425B653F164CED8259BAB3 /* classes.jar */,
 				33EE82932A8B48CCB1D6A3D7 /* R.jar */,
 				FFC53E8CEB434CBB9A92EFFA /* R.txt */,
-				9723C0BD29304F7F8D8B060D /* compile-file-map.properties */,
-				2DBA5205517E46B4915CE252 /* merger.xml */,
 				DBE41F33755C42FC80A33FE0 /* BuildConfig.class */,
 				33C437100F76465E8EAF9C79 /* DialogResultHandler.class */,
 				3D4F2ED23B5B448E939C5A3B /* FingerprintAuthConstants.class */,
@@ -432,12 +462,10 @@
 				73D6F9AD51474782A7046951 /* FingerprintHandler$Callback.class */,
 				3247C17739414F45B9033622 /* FingerprintHandler.class */,
 				B2D6543799604ACC8FD97FF6 /* R-def.txt */,
-				0EBA7E412B9340848177CC17 /* manifest-merger-blame-debug-report.txt */,
 				476C27AADDA24F508A20871C /* navigation.json */,
 				6D95724A39894468AC7E62C5 /* ic_fp_40px.png */,
 				E58C00B449E74C33875B0785 /* fingerprint_dialog.xml */,
 				06BBE44E22474A94BB791901 /* package-aware-r.txt */,
-				CA77F0DF1AE8458888D840F0 /* manifest-merger-debug-report.txt */,
 				8A8D1796BE7A4402BBD7A0A0 /* previous-compilation-data.bin */,
 				E8F1906CBD0B4946BC8F18EB /* build.gradle */,
 				64CF1D3723ED4346A71CCC7E /* DialogResultHandler.java */,
@@ -494,7 +522,6 @@
 				11C12C8097604E42B9E318DD /* KeychainModule$KnownCiphers.class */,
 				4494248911104CB6A5A4A802 /* KeychainModule$Maps.class */,
 				5275DB519407415EBBF01CD9 /* KeychainModule$Rules.class */,
-				60FD34CD8D5C4CFFA085D2EF /* KeychainModule.class */,
 				9EF83283E3B14B2AAB210BD6 /* KeychainModuleBuilder.class */,
 				901C1C26BEE2412CA8758342 /* KeychainPackage.class */,
 				648648E9A03246E6B0CFFE69 /* PrefsStorage$ResultSet.class */,
@@ -524,6 +551,33 @@
 				E22AC5F367C74FB2B9C9148E /* RNKeychainManager.h */,
 				74B7D8DF86BD404AA2DA8A6A /* RNKeychainManager.m */,
 				D2DD85AEF17544EA83BFE64F /* react-native-keychain.d.ts */,
+				62E4D443BEB74C9CBDF26F28 /* SofiaSans-Black.ttf */,
+				B9B77D19FEC0496F8707D479 /* SofiaSans-BlackItalic.ttf */,
+				DD4DA0D435D3441DB2EBAA71 /* SofiaSans-Bold.ttf */,
+				0C97E1C1F1564690A13305F0 /* SofiaSans-BoldItalic.ttf */,
+				026BD5EDB4D446F28187E286 /* SofiaSans-ExtraBold.ttf */,
+				096F607E30BE4F44984DDF8B /* SofiaSans-ExtraBoldItalic.ttf */,
+				3471BDA9D3A44D5D8FFABE75 /* SofiaSans-ExtraLight.ttf */,
+				82AAF15E732B43928AA1E583 /* SofiaSans-ExtraLightItalic.ttf */,
+				47E616788E6949B887E76F2D /* SofiaSans-Italic.ttf */,
+				B3D473D85A6549AEB8136371 /* SofiaSans-Light.ttf */,
+				BD053BD72FD44FD7972CC728 /* SofiaSans-LightItalic.ttf */,
+				E5187B07808F4A6BB8840FCC /* SofiaSans-Medium.ttf */,
+				5149728BEFCD4E21A5B28CB9 /* SofiaSans-MediumItalic.ttf */,
+				6301B23DE02F44E9AC2E236E /* SofiaSans-Regular.ttf */,
+				F5144C0892F746AAA9D92EEE /* SofiaSans-SemiBold.ttf */,
+				DCA556579ED34C80B772B2C0 /* SofiaSans-SemiBoldItalic.ttf */,
+				8D460978C3EE46D48A49F69A /* SofiaSans-Thin.ttf */,
+				44AECE02CA0E4773B63D9436 /* SofiaSans-ThinItalic.ttf */,
+				8568812B04A745E8A85C555E /* results.bin */,
+				BF75DF68BFC94ABF82381E7A /* classes.dex */,
+				7FED211BE62648F488BF5CBE /* drawable_ic_fp_40px.png.flat */,
+				CEFDED4EA7C94C58A9021BBA /* layout_fingerprint_dialog.xml.flat */,
+				F3E34AEBFEAA4F2CA31D1F6E /* compile-file-map.properties */,
+				C5E88CD9ECDD441EA9F07F43 /* merger.xml */,
+				0DF6C0F886494E63BBFE4FFB /* manifest-merger-blame-debug-report.txt */,
+				27C29B5CA07448ED8A97CD2C /* manifest-merger-debug-report.txt */,
+				21D1CE040A144CE3871786DC /* KeychainModule.class */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -630,20 +684,14 @@
 				9D3D0E3FA58F49A9A533DF5C /* .eslintrc in Resources */,
 				A7F7091A4A5244F3A94164D5 /* .jshintrc in Resources */,
 				1C52BFB376224828B1D3D8E7 /* .travis.yml in Resources */,
-				A41B1ECD1DE24E7E9BC3E96D /* results.bin in Resources */,
-				F7E07CF7B27C443DBD4104E7 /* classes.dex in Resources */,
 				504C0B4BDD0B4DC29B768F1B /* BuildConfig.java in Resources */,
 				A249D7BE95C3402BB8D0DFDC /* AndroidManifest.xml in Resources */,
 				C386C9AE573F4B7CA7D03809 /* output-metadata.json in Resources */,
 				9A563468202544B599E086E5 /* aar-metadata.properties in Resources */,
 				551C55CD2174423D8B45ADA5 /* annotationProcessors.json in Resources */,
-				B17091C86424497D9ED164ED /* drawable_ic_fp_40px.png.flat in Resources */,
-				5C06BD750F944DB2BA05230F /* layout_fingerprint_dialog.xml.flat in Resources */,
 				193C2C2FB300439DA2EBD1E5 /* classes.jar in Resources */,
 				C3D7143B5E6D42CC816E8E6F /* R.jar in Resources */,
 				9C50035B179C463AB2FCE299 /* R.txt in Resources */,
-				3C2A5FE573C84F8E843381C4 /* compile-file-map.properties in Resources */,
-				DDF175A66517429FBF945E21 /* merger.xml in Resources */,
 				FD72936FC6F64B5BAA5DABC5 /* BuildConfig.class in Resources */,
 				097AD73543B24B61BDA0D76F /* DialogResultHandler.class in Resources */,
 				4E0B25D58E1341CB83D37159 /* FingerprintAuthConstants.class in Resources */,
@@ -657,12 +705,10 @@
 				14A33C5CACD44876A46DDC53 /* FingerprintHandler$Callback.class in Resources */,
 				2DBF0A37BBA74B598A7AAA57 /* FingerprintHandler.class in Resources */,
 				3D711CFEEC004AACA1FD2331 /* R-def.txt in Resources */,
-				5FBFD8C02C2B46649FB18581 /* manifest-merger-blame-debug-report.txt in Resources */,
 				6C9ACB74358F4961A34125E9 /* navigation.json in Resources */,
 				12562C4C93484C4C83A0D151 /* ic_fp_40px.png in Resources */,
 				745E8984422349FCB669C3D2 /* fingerprint_dialog.xml in Resources */,
 				57B179790FE840B9A888D4E2 /* package-aware-r.txt in Resources */,
-				70FD25346AD54090AD5898BB /* manifest-merger-debug-report.txt in Resources */,
 				1C168BB2269047F9A5E05CC6 /* previous-compilation-data.bin in Resources */,
 				EDAC1FA276AF405D801F4F16 /* build.gradle in Resources */,
 				B4FE7FF13E034DFC895C3BC0 /* DialogResultHandler.java in Resources */,
@@ -719,7 +765,6 @@
 				CA581C14AEAB4E42886E50C3 /* KeychainModule$KnownCiphers.class in Resources */,
 				65ACF8969E33465480F79474 /* KeychainModule$Maps.class in Resources */,
 				F2F7B1F91ACF44FF8779678F /* KeychainModule$Rules.class in Resources */,
-				0683AE3AE4CA418FB8167F3D /* KeychainModule.class in Resources */,
 				031078576D304A348C2A4966 /* KeychainModuleBuilder.class in Resources */,
 				75048794C3294A6CAC77B416 /* KeychainPackage.class in Resources */,
 				DF2D72C570974CDFAFC4CF50 /* PrefsStorage$ResultSet.class in Resources */,
@@ -749,6 +794,33 @@
 				8380A674130346728BDC7DD4 /* RNKeychainManager.h in Resources */,
 				943FC107F5F341D9B8D513D5 /* RNKeychainManager.m in Sources */,
 				CA9A9256FF8544F195430A07 /* react-native-keychain.d.ts in Resources */,
+				05BFFD31877C4290A54E7C9E /* SofiaSans-Black.ttf in Resources */,
+				9C4D5EBCB0624639A5492B6B /* SofiaSans-BlackItalic.ttf in Resources */,
+				93C14AEFFE1E476980E0DEF2 /* SofiaSans-Bold.ttf in Resources */,
+				D910CE6B7C0D4AA088FAAA53 /* SofiaSans-BoldItalic.ttf in Resources */,
+				F589D600343348DDBBBDA67A /* SofiaSans-ExtraBold.ttf in Resources */,
+				11A19FBB9F2E4308A15642B7 /* SofiaSans-ExtraBoldItalic.ttf in Resources */,
+				B2F862DBDB924D7F92E4A29F /* SofiaSans-ExtraLight.ttf in Resources */,
+				61DFC632AB6C469DBECE6A20 /* SofiaSans-ExtraLightItalic.ttf in Resources */,
+				5E889529D38B4B7581A84D17 /* SofiaSans-Italic.ttf in Resources */,
+				D5E8A13B9ACB4169AF653D32 /* SofiaSans-Light.ttf in Resources */,
+				2272AB0A2B734499AAF02A14 /* SofiaSans-LightItalic.ttf in Resources */,
+				242B11F5DA8D490582D333CF /* SofiaSans-Medium.ttf in Resources */,
+				406215C6C2E54A5BAC87AA21 /* SofiaSans-MediumItalic.ttf in Resources */,
+				B2301036F7734A2F93D5CFE6 /* SofiaSans-Regular.ttf in Resources */,
+				20690D9F4AF34CF08DBE7AB9 /* SofiaSans-SemiBold.ttf in Resources */,
+				28C99D09DB7B4311BCCCE2FE /* SofiaSans-SemiBoldItalic.ttf in Resources */,
+				9B07E67EC8394A68A5E66EB5 /* SofiaSans-Thin.ttf in Resources */,
+				B58AA5E801334DE7840CC59C /* SofiaSans-ThinItalic.ttf in Resources */,
+				9BD4FE8197C045EE842830DC /* results.bin in Resources */,
+				82D1350C89084742A43D804C /* classes.dex in Resources */,
+				6B0792D8F6914477A48A64A8 /* drawable_ic_fp_40px.png.flat in Resources */,
+				922EDBEDA03A4D77A8B5283C /* layout_fingerprint_dialog.xml.flat in Resources */,
+				4BE959D08D1E4730996510AB /* compile-file-map.properties in Resources */,
+				C5AE830E27764A7B8211F996 /* merger.xml in Resources */,
+				F872DDBBCB2843018F92FB6A /* manifest-merger-blame-debug-report.txt in Resources */,
+				9952377B0CB7477580AD50AB /* manifest-merger-debug-report.txt in Resources */,
+				883BC502B71A4F08A11604C4 /* KeychainModule.class in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

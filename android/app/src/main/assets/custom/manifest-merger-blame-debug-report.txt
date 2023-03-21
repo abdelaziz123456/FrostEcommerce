@@ -4,12 +4,12 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="21"
-6-->G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+6-->D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
 7        android:targetSdkVersion="33" />
-7-->G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+7-->D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-9-->G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:5-75
-9-->G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:23-72
+9-->D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:5-75
+9-->D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:23-72
 10
 11</manifest>

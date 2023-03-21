@@ -1,29 +1,29 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:1-4:12
-INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:1-4:12
-INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:1-4:12
+ADDED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:1-4:12
 	package
-		ADDED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:70-97
-		INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-		INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		ADDED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:70-97
+		INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:5-75
+ADDED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:5-75
 	android:name
-		ADDED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:23-72
+		ADDED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml:3:23-72
 uses-sdk
-INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-		ADDED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-		INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		ADDED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-		ADDED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
-		INJECTED from G:\React native training\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		ADDED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml
+		INJECTED from D:\personal\training projects\FrostEcommerce\node_modules\react-native-touch-id\android\src\main\AndroidManifest.xml

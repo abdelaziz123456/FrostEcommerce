@@ -20,7 +20,7 @@ function AuthNavigator() {
   const AuthStack = createNativeStackNavigator();
 
   return (
-    <AuthStack.Navigator>
+    <AuthStack.Navigator screenOptions={{headerShown: false}}>
       <AuthStack.Screen
         name="home"
         component={Home}

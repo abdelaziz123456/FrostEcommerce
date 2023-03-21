@@ -6,5 +6,6 @@ module.exports = {
   assets: [
     './node_modules/react-native-touch-id',
     './node_modules/react-native-keychain',
+    './assets/fonts',
   ], // <- your asset folder's path
 };

@@ -2,131 +2,152 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>
-			CFBundleDevelopmentRegion
+	<key>&#xD;
+			CFBundleDevelopmentRegion&#xD;
 		</key>
-	<string>
-			en
+	<string>&#xD;
+			en&#xD;
 		</string>
-	<key>
-			NSFaceIDUsageDescription
+	<key>&#xD;
+			NSFaceIDUsageDescription&#xD;
 		</key>
-	<string>
-			Enabling Face ID allows you quick and secure access to your account.
+	<string>&#xD;
+			Enabling Face ID allows you quick and secure access to your account.&#xD;
 		</string>
-	<key>
-			CFBundleDisplayName
+	<key>&#xD;
+			CFBundleDisplayName&#xD;
 		</key>
-	<string>
-			FrostEcommerce
+	<string>&#xD;
+			FrostEcommerce&#xD;
 		</string>
-	<key>
-			CFBundleExecutable
+	<key>&#xD;
+			CFBundleExecutable&#xD;
 		</key>
-	<string>
-			$(EXECUTABLE_NAME)
+	<string>&#xD;
+			$(EXECUTABLE_NAME)&#xD;
 		</string>
-	<key>
-			CFBundleIdentifier
+	<key>&#xD;
+			CFBundleIdentifier&#xD;
 		</key>
-	<string>
-			$(PRODUCT_BUNDLE_IDENTIFIER)
+	<string>&#xD;
+			$(PRODUCT_BUNDLE_IDENTIFIER)&#xD;
 		</string>
-	<key>
-			CFBundleInfoDictionaryVersion
+	<key>&#xD;
+			CFBundleInfoDictionaryVersion&#xD;
 		</key>
-	<string>
-			6.0
+	<string>&#xD;
+			6.0&#xD;
 		</string>
-	<key>
-			CFBundleName
+	<key>&#xD;
+			CFBundleName&#xD;
 		</key>
-	<string>
-			$(PRODUCT_NAME)
+	<string>&#xD;
+			$(PRODUCT_NAME)&#xD;
 		</string>
-	<key>
-			CFBundlePackageType
+	<key>&#xD;
+			CFBundlePackageType&#xD;
 		</key>
-	<string>
-			APPL
+	<string>&#xD;
+			APPL&#xD;
 		</string>
-	<key>
-			CFBundleShortVersionString
+	<key>&#xD;
+			CFBundleShortVersionString&#xD;
 		</key>
-	<string>
-			$(MARKETING_VERSION)
+	<string>&#xD;
+			$(MARKETING_VERSION)&#xD;
 		</string>
-	<key>
-			CFBundleSignature
+	<key>&#xD;
+			CFBundleSignature&#xD;
 		</key>
-	<string>
-			????
+	<string>&#xD;
+			????&#xD;
 		</string>
-	<key>
-			CFBundleVersion
+	<key>&#xD;
+			CFBundleVersion&#xD;
 		</key>
-	<string>
-			$(CURRENT_PROJECT_VERSION)
+	<string>&#xD;
+			$(CURRENT_PROJECT_VERSION)&#xD;
 		</string>
-	<key>
-			LSRequiresIPhoneOS
+	<key>&#xD;
+			LSRequiresIPhoneOS&#xD;
 		</key>
 	<true/>
-	<key>
-			NSAppTransportSecurity
+	<key>&#xD;
+			NSAppTransportSecurity&#xD;
 		</key>
 	<dict>
-		<key>
-				NSExceptionDomains
+		<key>&#xD;
+				NSExceptionDomains&#xD;
 			</key>
 		<dict>
-			<key>
-					localhost
+			<key>&#xD;
+					localhost&#xD;
 				</key>
 			<dict>
-				<key>
-						NSExceptionAllowsInsecureHTTPLoads
+				<key>&#xD;
+						NSExceptionAllowsInsecureHTTPLoads&#xD;
 					</key>
 				<true/>
 			</dict>
 		</dict>
 	</dict>
-	<key>
-			NSLocationWhenInUseUsageDescription
+	<key>&#xD;
+			NSLocationWhenInUseUsageDescription&#xD;
 		</key>
-	<string>
+	<string>&#xD;
 		</string>
-	<key>
-			UILaunchStoryboardName
+	<key>&#xD;
+			UILaunchStoryboardName&#xD;
 		</key>
-	<string>
-			LaunchScreen
+	<string>&#xD;
+			LaunchScreen&#xD;
 		</string>
-	<key>
-			UIRequiredDeviceCapabilities
+	<key>&#xD;
+			UIRequiredDeviceCapabilities&#xD;
 		</key>
 	<array>
-		<string>
-				armv7
+		<string>&#xD;
+				armv7&#xD;
 			</string>
 	</array>
-	<key>
-			UISupportedInterfaceOrientations
+	<key>&#xD;
+			UISupportedInterfaceOrientations&#xD;
 		</key>
 	<array>
-		<string>
-				UIInterfaceOrientationPortrait
+		<string>&#xD;
+				UIInterfaceOrientationPortrait&#xD;
 			</string>
-		<string>
-				UIInterfaceOrientationLandscapeLeft
+		<string>&#xD;
+				UIInterfaceOrientationLandscapeLeft&#xD;
 			</string>
-		<string>
-				UIInterfaceOrientationLandscapeRight
+		<string>&#xD;
+				UIInterfaceOrientationLandscapeRight&#xD;
 			</string>
 	</array>
-	<key>
-			UIViewControllerBasedStatusBarAppearance
+	<key>&#xD;
+			UIViewControllerBasedStatusBarAppearance&#xD;
 		</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SofiaSans-Black.ttf</string>
+		<string>SofiaSans-BlackItalic.ttf</string>
+		<string>SofiaSans-Bold.ttf</string>
+		<string>SofiaSans-BoldItalic.ttf</string>
+		<string>SofiaSans-ExtraBold.ttf</string>
+		<string>SofiaSans-ExtraBoldItalic.ttf</string>
+		<string>SofiaSans-ExtraLight.ttf</string>
+		<string>SofiaSans-ExtraLightItalic.ttf</string>
+		<string>SofiaSans-Italic.ttf</string>
+		<string>SofiaSans-Light.ttf</string>
+		<string>SofiaSans-LightItalic.ttf</string>
+		<string>SofiaSans-Medium.ttf</string>
+		<string>SofiaSans-MediumItalic.ttf</string>
+		<string>SofiaSans-Regular.ttf</string>
+		<string>SofiaSans-SemiBold.ttf</string>
+		<string>SofiaSans-SemiBoldItalic.ttf</string>
+		<string>SofiaSans-Thin.ttf</string>
+		<string>SofiaSans-ThinItalic.ttf</string>
+	</array>
 </dict>
 </plist>
