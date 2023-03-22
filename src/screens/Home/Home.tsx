@@ -1,12 +1,13 @@
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 import React from 'react';
-import {Container} from '../../SharedComponents';
+import {Carousel, Container} from '../../SharedComponents';
+import {CarouselData} from '../../Utiles/dummyData';
 
 export default function Home() {
   return (
     <Container>
       <View style={{flex: 1}}>
-        <Text>Home</Text>
+        <Carousel products={CarouselData} />
       </View>
     </Container>
   );
