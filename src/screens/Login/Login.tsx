@@ -1,5 +1,5 @@
 import {Image, Pressable, Text, View} from 'react-native';
-import React, {useContext, useState, useEffect} from 'react';
+import React, {useContext, useState} from 'react';
 import {styles} from './Login.styles';
 import {CustomButton, CustomModal, InputField} from '../../SharedComponents';
 import {useNavigation, StackActions} from '@react-navigation/native';

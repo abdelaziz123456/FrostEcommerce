@@ -6,11 +6,16 @@ export const ITEM_WIDTH = Math.round(SLIDER_WIDTH * 1);
 
 export default function CarouselCardItem({item, index}: any) {
   console.log(item.imgUrl);
-  let imageSource = item.imgUrl;
-  let Banner = 'Banner.png';
+
+  let images = [
+    require('../../Utiles/images/Banner.png'),
+    require('../../Utiles/images/Banner2.png'),
+    require('../../Utiles/images/Banner3.png'),
+  ];
+
   return (
     <View style={styles.container} key={index}>
-      <Image source={item.imgUrl} style={styles.image} />
+      <Image source={images[index]} style={styles.image} />
     </View>
   );
 }
@@ -32,7 +37,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: ITEM_WIDTH,
-    height: 300,
+    height: 600,
   },
   header: {
     color: '#222',
