@@ -1,11 +1,11 @@
 import {Image, Pressable, Text, View} from 'react-native';
-import React, {useContext, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {styles} from './Login.styles';
 import {CustomButton, CustomModal, InputField} from '../../SharedComponents';
 import {useNavigation, StackActions} from '@react-navigation/native';
 import {getCreds, loginHandler} from './LoginUtiles';
-import TouchID from 'react-native-touch-id';
 import {FrostContext} from '../../store/frost-context';
+import ReactNativeBiometrics from 'react-native-biometrics';
 
 export default function Login() {
   const {setISAuth} = useContext(FrostContext);
@@ -17,24 +17,43 @@ export default function Login() {
 
   const [isLogging, setIsLogging] = useState(false);
   const [showModal, setShowModal] = useState(false);
+  const [showFinger, setShowFinger] = useState(false);
   const [modalContent, setModalContent] = useState('');
   const navigation = useNavigation();
-  const handleBiometric = () => {
-    TouchID.authenticate('Authentication')
-      .then((success: any) => {
-        getCreds(
-          setLoginData,
-          setModalContent,
-          setShowModal,
-          setISAuth,
-          setIsLogging,
-        );
-
-        console.log(success);
+  const rnBiometrics = new ReactNativeBiometrics({
+    allowDeviceCredentials: true,
+  });
+  useEffect(() => {
+    console.log('renderd');
+    rnBiometrics
+      .isSensorAvailable()
+      .then(data => {
+        if (data.available && data?.biometryType === 'Biometrics') {
+          setShowFinger(true);
+        }
       })
-      .catch((error: any) => {
-        // Failure code
-        console.log(error);
+      .catch(err => console.log(err));
+  }, []);
+  const handleBiometric = () => {
+    rnBiometrics
+      .simplePrompt({promptMessage: 'Confirm fingerprint'})
+      .then(resultObject => {
+        const {success} = resultObject;
+
+        if (success) {
+          getCreds(
+            setLoginData,
+            setModalContent,
+            setShowModal,
+            setISAuth,
+            setIsLogging,
+          );
+        } else {
+          console.log('user cancelled biometric prompt');
+        }
+      })
+      .catch(() => {
+        console.log('biometrics failed');
       });
   };
   function onChangehandler(key: string, value: string) {
@@ -75,14 +94,17 @@ export default function Login() {
         }
         buttonStyle={'primary-outline'}
       />
-      <View style={styles.imageContainer}>
-        <Pressable onPress={() => handleBiometric()}>
-          <Image
-            source={require('../../Utiles/images/fingerprint.png')}
-            style={styles.image}
-          />
-        </Pressable>
-      </View>
+      {showFinger && (
+        <View style={styles.imageContainer}>
+          <Pressable onPress={() => handleBiometric()}>
+            <Image
+              source={require('../../Utiles/images/fingerprint.png')}
+              style={styles.image}
+            />
+          </Pressable>
+        </View>
+      )}
+
       <View style={styles.screenLinkContainer}>
         <Text
           style={styles.screenLink}
